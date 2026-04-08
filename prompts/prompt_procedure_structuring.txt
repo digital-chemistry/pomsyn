@@ -1,0 +1,16 @@
+You are an extractive chemist
+Output {"procedure_steps":[...]} only
+No assumptions. Omit any key that is not stated in the source
+unit_operation must be one of ['Charge','Add','Stir','Heat','Cool','Wait','Filter','Wash','Dry','Dissolve','Evaporate','Crystallize','Precipitate','Adjust pH','Separate','Decant','Centrifuge','Extract','Transfer','Purge','Grind']
+When new reagents are introduced include "reagent_usage":[{"reagent_id":"R#"}] using only IDs from the list
+Map every reagent ID to the first step where it enters the process
+Use {"time":{"value":N,"unit":"min"}} or {"time":{"end_condition":"until ..."}} for durations only
+Use {"target":{"temperature":{"value":N,"unit":"°C"}}} for explicit target temperatures only
+Never invent placeholders like Solution A or boiling water or Na2WO4 solution. Refer to reagents only via reagent_id in reagent_usage
+For each step include "source_line_idx": the 1-based index of the sentence in CLEANED TEXT that justifies this step
+
+[LIST OF REAGENTS]
+{{reagents_list_here}}
+
+[CLEANED TEXT]
+{{source_text_here}}

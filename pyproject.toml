@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pomsyn"
+version = "0.1.0"
+description = "An automated pipeline for chemical text preprocessing and data extraction using Gemini."
+authors = [
+    {name = "Aleksandar Kondinski"},
+    {name = "Jan Leodolter"}
+]
+
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "google-genai>=1.70.0",
+    "tqdm>=4.67.3",
+]
+
+[project.scripts]
+pomsyn = "pomsyn:main_entry"
+
+[tool.setuptools]
+py-modules = ["pomsyn"]
+packages = ["components", "prompts"] 
+
+[tool.setuptools.package-data]
+"prompts" = ["*.txt"]
+"*" = ["*.txt", "*.csv", "*.json"]

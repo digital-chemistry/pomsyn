@@ -182,9 +182,7 @@ def main_entry():
         if target not in available_models:
             logging.error("\033[91mCRITICAL ERROR: Model '%s' not found or not authorized for this API key.", MODEL)
             logging.info("") 
-            
             logging.info("Available models: %s", ", ".join([m.replace("models/", "") for m in available_models]))
-            
             logging.info("") 
             sys.exit(1)
         
@@ -207,6 +205,10 @@ def main_entry():
         for p in (PHASE0_FOLDER, PHASE1_FOLDER, PHASE2_FOLDER):
             clean_dir(p)
 
+        ### Prepare fresh final JSON output
+        if Path(FINAL_OUTPUT_FILENAME).exists():
+            Path(FINAL_OUTPUT_FILENAME).unlink()
+
         ### input_definition.csv (optional)
         product_map = read_map_csv(MAP_CSV)
         if product_map:
@@ -216,91 +218,148 @@ def main_entry():
         else:
             logging.info("No input_definition.csv found or empty; Cleanup will fallback to product detection.")
 
-        ### Phase 0
-        preprocessing_config = {
-            "api_key": api_key,
-            "model_name": MODEL,
-            "source_folder": str(SOURCE_TEXTS_FOLDER),
-            "output_folder": str(PHASE0_FOLDER),
-            "prompt_files": {
-                "count": [
-                    str(PROMPTS_DIR / "prompt_preprocessing_count.txt"),
-                    str(INTERNAL_PROMPTS / "prompt_preprocessing_count.txt")
-                ],
-                "rewrite": [
-                    str(PROMPTS_DIR / "prompt_preprocessing_rewrite.txt"),
-                    str(INTERNAL_PROMPTS / "prompt_preprocessing_rewrite.txt")
-                ],
-            },
-            "max_workers": MAX_WORKERS,
-            "split_mode": "delimiter_only",
-            "product_map": product_map,
-            "only_files_in_map": bool(product_map)
-        }
-        PreprocessingPipeline(preprocessing_config).run()
-        copy_tree(PHASE0_FOLDER, d_preprocess)
-        logging.info("Phase 0 done. %d files.", count_files(PHASE0_FOLDER))
-        logging.info("")
+        source_files = [f for f in SOURCE_TEXTS_FOLDER.iterdir() if f.is_file()]
+        if not source_files:
+            logging.warning(f"No source files found in {SOURCE_TEXTS_FOLDER}")
+            sys.exit(0)
 
-        ### Phase 1
-        reagent_extraction_config = {
-            "api_key": api_key,
-            "model_name": MODEL,
-            "source_folder": str(PHASE0_FOLDER),
-            "output_folder": str(PHASE1_FOLDER),
-            "prompt_file": [str(PROMPTS_DIR / "prompt_reagent_extraction.txt"), str(INTERNAL_PROMPTS / "prompt_reagent_extraction.txt")],
-            "database_file": "chemical_database.json",
-            "max_workers": MAX_WORKERS,
-        }
-        ExtractionPipeline(reagent_extraction_config).run()
+        ### Temporary directories for isolated execution
+        temp_src = THIS_RUN_DIR / "temp_src"
+        temp_p0  = THIS_RUN_DIR / "temp_p0"
+        temp_p1  = THIS_RUN_DIR / "temp_p1"
+        temp_p2  = THIS_RUN_DIR / "temp_p2"
+
+        all_final_procedures = []
+
+        ### Process files one by one
+        abort_pipeline = False
+
+        for file_index, source_file in enumerate(source_files, start=1):
+            if abort_pipeline:
+                break
+
+            logging.info("")
+            logging.info("\n" + "="*50)
+            logging.info(f"  Processing Input {file_index}/{len(source_files)}: {source_file.name}")
+            logging.info("="*50)
+            logging.info("")
+
+            for p in (temp_src, temp_p0, temp_p1, temp_p2):
+                clean_dir(p)
+
+            try:
+                shutil.copy2(source_file, temp_src / source_file.name)
+
+                ### Phase 0
+                logging.info(f"--- Processing file: {source_file.name} ---")
+                preprocessing_config = {
+                    "api_key": api_key,
+                    "model_name": MODEL,
+                    "source_folder": str(temp_src),
+                    "output_folder": str(temp_p0),
+                    "prompt_files": {
+                        "count": [
+                            str(PROMPTS_DIR / "prompt_preprocessing_count.txt"),
+                            str(INTERNAL_PROMPTS / "prompt_preprocessing_count.txt")
+                        ],
+                        "rewrite": [
+                            str(PROMPTS_DIR / "prompt_preprocessing_rewrite.txt"),
+                            str(INTERNAL_PROMPTS / "prompt_preprocessing_rewrite.txt")
+                        ],
+                    },
+                    "max_workers": MAX_WORKERS,
+                    "split_mode": "delimiter_only",
+                    "product_map": product_map,
+                    "only_files_in_map": bool(product_map)
+                }
+                PreprocessingPipeline(preprocessing_config).run()
+
+                ### Phase 1
+                logging.info(f"\n--- Processing file: {source_file.name} ---")
+                reagent_extraction_config = {
+                    "api_key": api_key,
+                    "model_name": MODEL,
+                    "source_folder": str(temp_p0),
+                    "output_folder": str(temp_p1),
+                    "prompt_file": [str(PROMPTS_DIR / "prompt_reagent_extraction.txt"), str(INTERNAL_PROMPTS / "prompt_reagent_extraction.txt")],
+                    "database_file": str(BASE_DIR / "chemical_database.json"),
+                    "max_workers": MAX_WORKERS,
+                }
+                ExtractionPipeline(reagent_extraction_config).run()
+
+                ### Phase 2
+                logging.info(f"\n--- Processing file: {source_file.name} ---")
+                proc_struc_config = {
+                    "api_key": api_key,
+                    "model_name": MODEL,
+                    "source_folder": str(temp_p0),
+                    "manifests_folder": str(temp_p1),
+                    "output_folder": str(temp_p2),
+                    "prompt_file": [str(PROMPTS_DIR / "prompt_procedure_structuring.txt"), str(INTERNAL_PROMPTS / "prompt_procedure_structuring.txt")],
+                    "max_workers": MAX_WORKERS,
+                }
+                StructuringPipeline(proc_struc_config).run()
+
+                ### Phase 3
+                logging.info(f"\n--- Processing file: {source_file.name} ---")
+                data_assembly_config = {
+                    "api_key": api_key,
+                    "model_name": MODEL,
+                    "manifests_folder": str(temp_p1),
+                    "markdown_folder": str(temp_p2),
+                    "prompt_file": [str(PROMPTS_DIR / "prompt_data_assembly.txt"), str(INTERNAL_PROMPTS / "prompt_data_assembly.txt")],
+                    "max_workers": MAX_WORKERS,
+                }
+                file_procedures = AssemblyPipeline(data_assembly_config).run()
+
+                if file_procedures:
+                    all_final_procedures.extend(file_procedures)
+                    all_final_procedures.sort(key=sort_key_from_procedure_id)
+                    
+                    out_data = {"procedures": all_final_procedures}
+                    
+                    write_json(Path(FINAL_OUTPUT_FILENAME), out_data)
+                    write_json(d_final / "procedures.json", out_data)
+                    logging.info(f"Appended {len(file_procedures)} procedure(s) for {source_file.name} to {FINAL_OUTPUT_FILENAME}")
+                else:
+                    logging.warning(f"No procedures assembled for {source_file.name}")
+
+                copy_tree(temp_p0, PHASE0_FOLDER)
+                copy_tree(temp_p1, PHASE1_FOLDER)
+                copy_tree(temp_p2, PHASE2_FOLDER)
+
+            except KeyboardInterrupt:
+                logging.warning(f"\n\033[93m[!] Process interrupted by user during {source_file.name}.\033[0m")
+                logging.info("Rolling back unfinished steps for this input...")
+                for p in (temp_src, temp_p0, temp_p1, temp_p2):
+                    clean_dir(p)
+                abort_pipeline = True
+
+            except Exception as e:
+                logging.error(f"\n\033[91m[!] Error processing {source_file.name}: {e}\033[0m")
+                logging.info("Rolling back unfinished steps for this input...")
+                for p in (temp_src, temp_p0, temp_p1, temp_p2):
+                    clean_dir(p)
+                
+                err_str = str(e).lower()
+                if any(k in err_str for k in ["quota", "429", "403", "api_key", "exhausted"]):
+                    logging.error("\033[91mCritical API limits reached. Halting further processing.\033[0m")
+                    abort_pipeline = True
+                else:
+                    logging.info("Moving to the next file...")
+
+        for p in (temp_src, temp_p0, temp_p1, temp_p2):
+            if p.exists():
+                shutil.rmtree(p)
+
+        copy_tree(PHASE0_FOLDER, d_preprocess)
         copy_tree(PHASE1_FOLDER, d_reagent_extraction)
+        copy_tree(PHASE2_FOLDER, d_proc_struc)
+        copy_tree(PHASE2_FOLDER, d_data_assembly)
+
         db_path = Path("chemical_database.json")
         if db_path.exists():
             shutil.copy2(db_path, d_reagent_extraction / "chemical_database.json")
-        logging.info("Phase 1 done. %d files.", count_files(PHASE1_FOLDER))
-        logging.info("")
-
-        ### Phase 2
-        proc_struc_config = {
-            "api_key": api_key,
-            "model_name": MODEL,
-            "source_folder": str(PHASE0_FOLDER),
-            "manifests_folder": str(PHASE1_FOLDER),
-            "output_folder": str(PHASE2_FOLDER),
-            "prompt_file": [str(PROMPTS_DIR / "prompt_procedure_structuring.txt"), str(INTERNAL_PROMPTS / "prompt_procedure_structuring.txt")],
-            "max_workers": MAX_WORKERS,
-        }
-        StructuringPipeline(proc_struc_config).run()
-        copy_tree(PHASE2_FOLDER, d_proc_struc)
-        logging.info("Phase 2 done. %d files.", count_files(PHASE2_FOLDER))
-        logging.info("")
-
-        ### Phase 3
-        data_assembly_config = {
-            "api_key": api_key,
-            "model_name": MODEL,
-            "manifests_folder": str(PHASE1_FOLDER),
-            "markdown_folder": str(PHASE2_FOLDER),
-            "prompt_file": [str(PROMPTS_DIR / "prompt_data_assembly.txt"), str(INTERNAL_PROMPTS / "prompt_data_assembly.txt")],
-            "max_workers": MAX_WORKERS,
-        }
-        final_procedures = AssemblyPipeline(data_assembly_config).run()
-        copy_tree(PHASE2_FOLDER, d_data_assembly)
-
-        ### Final save
-        if final_procedures:
-            final_procedures.sort(key=sort_key_from_procedure_id)
-            out = {"procedures": final_procedures}
-
-            Path(FINAL_OUTPUT_FILENAME).write_text(
-                json.dumps(out, indent=2, ensure_ascii=False),
-                encoding="utf-8"
-            )
-            write_json(d_final / "procedures.json", out)
-            logging.info("Final dataset with %d procedures saved to '%s'.",
-                         len(final_procedures), FINAL_OUTPUT_FILENAME)
-        else:
-            logging.warning("No procedures assembled. Nothing to write.")
 
         ### Summaries & manifests
         manifest = {
@@ -317,7 +376,7 @@ def main_entry():
                 "phase0_files": count_files(PHASE0_FOLDER),
                 "phase1_files": count_files(PHASE1_FOLDER),
                 "phase2_files": count_files(PHASE2_FOLDER),
-                "final_procedures": len(final_procedures or []),
+                "final_procedures": len(all_final_procedures),
             },
             "map_csv_used": MAP_CSV.exists(),
         }

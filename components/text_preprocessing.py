@@ -425,7 +425,7 @@ class PreprocessingPipeline:
             tqdm.write(f"  \033[91mPreprocessing error for {filename} {e}\033[0m")
 
     def run(self):
-        print(f"\n\033[92m  >>>  Starting Phase 0: Preprocessing\033[0m")
+        print(f"\033[92m  >>>  Starting Phase 0: Preprocessing\033[0m")
         if not self.setup():
             return
         src = Path(self.config['source_folder'])

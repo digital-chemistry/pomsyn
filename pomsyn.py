@@ -399,7 +399,7 @@ def main_entry():
         copy_tree(THIS_RUN_DIR, LATEST_DIR)
 
         ### Prune old runs
-        prune_old_runs(RUNS_ROOT, KEEP_LAST_RUNS)
+        # prune_old_runs(RUNS_ROOT, KEEP_LAST_RUNS)
 
         logging.info("")
         logging.info("\033[92m  >>>  FULL PIPELINE COMPLETE\033[0m")

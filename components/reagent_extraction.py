@@ -46,6 +46,31 @@ def try_aggregate_amount(a: Optional[str], b: Optional[str]) -> Optional[str]:
         return f"{text}{u1}"
     return a
 
+def _strip_code_fences(txt: str) -> str:
+    return re.sub(r"^```[\w-]*\s*|\s*```$", "", txt.strip(), flags=re.DOTALL)
+
+def _extract_json_block(txt: str) -> str:
+    i = txt.find("{")
+    j = txt.rfind("}")
+    return txt[i:j+1] if i != -1 and j != -1 and j > i else txt
+
+def _escape_bad_backslashes(s: str) -> str:
+    return re.sub(r'(?<!\\)\\(?![\\/"bfnrtu])', r'\\\\', s)
+
+def _remove_trailing_commas(s: str) -> str:
+    return re.sub(r",\s*([}\]])", r"\1", s)
+
+def _safe_json_loads(raw: str):
+    txt = _strip_code_fences(raw)
+    txt = _extract_json_block(txt)
+    try:
+        return json.loads(txt)
+    except Exception:
+        pass
+    cleaned = _escape_bad_backslashes(txt)
+    cleaned = _remove_trailing_commas(cleaned)
+    return json.loads(cleaned)
+
 MOLAR_RE = re.compile(r"\b(\d+(?:\.\d+)?)\s*(?:M|mol/?L|mol·L⁻¹)\b", re.I)
 PCT_RE   = re.compile(r"\b(\d+(?:\.\d+)?)\s*%\s*(w/?w|v/?v|w/?v)?\b", re.I)
 PURITY_RE = re.compile(r"\b(\d+(?:\.\d+)?)\s*%\s*(?:purity|pure)\b", re.I)
@@ -280,32 +305,51 @@ class ExtractionPipeline:
         print(f"Chemical database now contains {len(self.database)} entries. Saved to '{self.db_path}'.")
 
     def _call_extractor(self, source_text: str) -> Dict:
-        prompt = self.prompt_template.replace("{{source_text_here}}", source_text)        
-        resp = self.client.models.generate_content(
-            model=self.model_id,
-            contents=prompt,
-            config={
-                "temperature": 0,
-                "response_mime_type": "application/json"
-            }
-        )
-        
-        txt = (resp.text or "").strip()
-        try:
-            data = json.loads(txt)
+            prompt = self.prompt_template.replace("{{source_text_here}}", source_text)
+
+            def ask(p):
+                resp = self.client.models.generate_content(
+                    model=self.model_id,
+                    contents=p,
+                    config={
+                        "temperature": 0,
+                        "response_mime_type": "application/json"
+                    }
+                )
+                return (resp.text or "").strip()
+
+            txt = ask(prompt)
+            dbg_dir = Path(self.config["output_folder"]) / "_debug"
+
+            try:
+                data = _safe_json_loads(txt)
+            except Exception as e1:
+                # If the first attempt fails (e.g., unescaped quotes), log it and trigger a retry
+                dbg_dir.mkdir(parents=True, exist_ok=True)
+                (dbg_dir / "extractor_raw_attempt1.txt").write_text(txt, encoding="utf-8")
+
+                retry_prompt = (
+                    "Return ONLY valid JSON. Escape all inner quotes. No markdown. "
+                    "Respond with a single object containing the key \"reagents\".\n\n"
+                    + prompt
+                )
+                txt2 = ask(retry_prompt)
+
+                try:
+                    data = _safe_json_loads(txt2)
+                except Exception as e2:
+                    (dbg_dir / "extractor_raw_attempt2.txt").write_text(txt2, encoding="utf-8")
+                    raise ValueError(f"JSON parsing failed after retry. Attempt 1: {e1}. Attempt 2: {e2}")
+
             if not isinstance(data, dict) or "reagents" not in data or not isinstance(data["reagents"], list):
-                raise ValueError("Extractor returned invalid structure")
+                raise ValueError("Extractor returned valid JSON, but invalid structure")
+
             clean = []
             for r in data["reagents"]:
                 nm = (r.get("name") or "").strip()
                 amt = r.get("amount")
                 clean.append({"name": nm, "amount": amt})
             return {"reagents": clean}
-        except Exception as e:
-            dbg_dir = Path(self.config["output_folder"]) / "_debug"
-            dbg_dir.mkdir(parents=True, exist_ok=True)
-            (dbg_dir / "extractor_raw.json.txt").write_text(txt, encoding="utf-8")
-            raise
 
     def _norm_name_key(self, name: str) -> str:
         return (name or "").strip().casefold()

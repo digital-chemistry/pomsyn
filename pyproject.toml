@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pomsyn"
-version = "0.1.0"
+version = "0.1.1"
 description = "An automated pipeline for chemical text preprocessing and data extraction using Gemini."
 authors = [
     {name = "Aleksandar Kondinski"},

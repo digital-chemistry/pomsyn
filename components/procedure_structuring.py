@@ -30,8 +30,20 @@ def _safe_json_loads(raw: str):
         return json.loads(txt)
     except Exception:
         pass
+
+    # Phase 2 Aggressive Cleanup
     cleaned = _escape_bad_backslashes(txt)
     cleaned = _remove_trailing_commas(cleaned)
+
+    # Fix missing commas between objects in an array: } { becomes }, {
+    cleaned = re.sub(r'}\s*{', '}, {', cleaned)
+
+    # Fix missing commas between arrays/strings: ] " becomes ], "
+    cleaned = re.sub(r'\]\s*"', '], "', cleaned)
+
+    # Strip inline Javascript-style comments (// comment)
+    cleaned = re.sub(r'(?m)^\s*//.*$', '', cleaned)
+
     return json.loads(cleaned)
 
 ALLOWED_OPS = {
@@ -241,7 +253,11 @@ class StructuringPipeline:
             with open(os.path.join(dbg_dir, f"{tag}_raw_attempt1.txt"), "w", encoding="utf-8") as f:
                 f.write(raw)
             retry_prompt = (
-                "Return ONLY valid JSON. No markdown. No comments. "
+                "CRITICAL ERROR: Your previous response was invalid JSON. "
+                "Return ONLY strictly valid JSON. Do NOT include markdown formatting (```json). "
+                "Do NOT include comments (// or /*). "
+                "Ensure all double quotes inside strings are properly escaped (\\\"). "
+                "Ensure every object in an array is separated by a comma. "
                 "Respond with an object that has exactly one key \"procedure_steps\".\n\n"
                 + prompt
             )

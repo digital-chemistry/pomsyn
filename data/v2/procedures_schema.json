@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/digital-chemistry/pomsyn/procedures_schema.json",
+  "title": "Digitising Polyoxometalate Syntheses -- procedures.json corpus schema",
+  "description": "Schema for the deposited 405-record POM synthesis corpus accompanying 'Digitising Polyoxometalate Syntheses' (Kondinski et al.). Each element of the top-level 'procedures' array is one synthesis procedure. Step-level fields beyond the core set below are intentionally open (additionalProperties: true): the extraction pipeline captures whatever tacit conditions a given source text actually states (pH, atmosphere, cooling rate, irradiation, ...), and forcing every step to declare every possible field would misrepresent records where that detail was simply not reported.",
+  "type": "object",
+  "required": ["procedures"],
+  "properties": {
+    "procedures": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/procedure" }
+    }
+  },
+  "$defs": {
+    "procedure": {
+      "type": "object",
+      "required": ["procedure_information", "reagents", "procedure_steps"],
+      "properties": {
+        "procedure_information": {
+          "type": "object",
+          "description": "Identifier and provenance metadata for this procedure.",
+          "required": ["id"],
+          "properties": {
+            "id": { "type": "string", "description": "Corpus-unique procedure identifier, e.g. 'SYN1', 'SYN71-2'." },
+            "title": { "type": "string" }
+          },
+          "additionalProperties": true
+        },
+        "product_summary": {
+          "type": "object",
+          "description": "Final yield and other target-specific information, where reported.",
+          "additionalProperties": true
+        },
+        "reagents": {
+          "type": "array",
+          "description": "The procedure-level reagent manifest. Amounts are recorded once per procedure as an aggregated total (see manuscript Section 'Automated Synthesis Data Extraction' and 'Limitations and Error Analysis'), not separately for every step referencing that reagent.",
+          "items": {
+            "type": "object",
+            "required": ["name"],
+            "properties": {
+              "name": { "type": "string" },
+              "amount": { "type": ["string", "number", "null"], "description": "Quantity as reported: usually a free-text string ('100 gm', '360 cc'), occasionally a bare number where the unit is implied by context, or null where no amount was stated." },
+              "concentration": { "description": "Either a free-text string (e.g. '10 M') or a {value, unit} object, depending on how the source text stated it." },
+              "purity": { "type": "string" },
+              "reported_uses": {}
+            },
+            "additionalProperties": true
+          }
+        },
+        "procedure_steps": {
+          "type": "array",
+          "description": "Chronologically ordered unit operations.",
+          "items": {
+            "type": "object",
+            "required": ["unit_operation", "step_number", "source_line_idx"],
+            "properties": {
+              "unit_operation": { "type": "string", "description": "Normalised verb, e.g. 'Add', 'Dissolve', 'Filter', 'Wait', 'Adjust pH'." },
+              "step_number": { "type": "integer", "minimum": 1 },
+              "source_line_idx": { "type": "integer", "minimum": 1, "description": "1-based index of the sentence in the normalised (Phase I) source text that this step was derived from -- the field-level provenance link back to source text." },
+              "source_text": { "type": "string", "description": "The exact normalised source sentence this step was derived from." },
+              "reagent_usage": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "description": "Usually references an entry in the procedure-level 'reagents' list via 'reagent_id'; a minority of entries carry only 'name' where the extraction agent could not resolve a stable reagent_id.",
+                  "properties": {
+                    "reagent_id": { "type": "string", "description": "References an entry in the procedure-level 'reagents' list." },
+                    "name": { "type": "string" },
+                    "amount": { "description": "Step-level sub-quantity, where the repair/validation pass (Supporting Information) established it: a free-text string, a {value, unit} object, a bare number, or null/absent where only the procedure-level total in 'reagents' is known." }
+                  },
+                  "additionalProperties": true
+                }
+              },
+              "time": {
+                "type": "object",
+                "properties": {
+                  "value": {},
+                  "unit": { "type": ["string", "null"] },
+                  "end_condition": { "type": "string" }
+                },
+                "additionalProperties": true
+              },
+              "temperature": {
+                "type": "object",
+                "properties": {
+                  "value": {},
+                  "unit": { "type": ["string", "null"] }
+                },
+                "additionalProperties": true
+              },
+              "target": {
+                "type": ["object", "null"],
+                "description": "Target condition for the step (e.g. target temperature/pH to reach), distinct from 'product_summary'; null where no target condition applies to this step.",
+                "additionalProperties": true
+              },
+              "apparatus": {},
+              "atmosphere": { "type": "string" },
+              "notes": { "type": "string" }
+            },
+            "additionalProperties": true,
+            "$comment": "Beyond the fields listed above, individual steps may carry any of a long tail of rarely-used, source-driven fields (solvent, ph, stirring, cooling_method, precipitation_method, drying_method, crystallization_conditions, addition_mode, duration, repetitions, rate, cooling_rate, irradiation, light_condition, pressure, ...), each present only where the corresponding condition was actually reported in the source text."
+          }
+        },
+        "characterisation": {
+          "type": "object",
+          "description": "Analytical readouts (NMR, IR, elemental analysis, ...), where reported.",
+          "additionalProperties": true
+        },
+        "reported_uses": {}
+      },
+      "additionalProperties": true
+    }
+  }
+}

@@ -1,0 +1,6228 @@
+{
+  "description": "Procedure-linked DOI rebuilt from the downloaded-paper bibliography (00_Vienna/POM-SYNTHEISS/00_output.csv, procedure_id/title/doi, matched to SYN IDs by the shared procedure numbering) as the primary source for all 405 procedures; curated POM-core elements retained from the original Explorer index where previously linked.",
+  "records": {
+    "SYN1": {
+      "doi": "10.1016/s0021-9258(18)86325-6; 10.1002/9780470132326.ch49",
+      "dois": [
+        "10.1016/s0021-9258(18)86325-6",
+        "10.1002/9780470132326.ch49"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BAGE"
+      ]
+    },
+    "SYN2": {
+      "doi": "10.1021/ic50191a021",
+      "dois": [
+        "10.1021/ic50191a021"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BAGE"
+      ]
+    },
+    "SYN3": {
+      "doi": "10.1016/s0022-0728(99)00068-6",
+      "dois": [
+        "10.1016/s0022-0728(99)00068-6"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BAGI"
+      ]
+    },
+    "SYN6": {
+      "doi": "10.1021/ic50191a021; 10.1002/9780470132586.ch16",
+      "dois": [
+        "10.1021/ic50191a021",
+        "10.1002/9780470132586.ch16"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BAGU"
+      ]
+    },
+    "SYN7": {
+      "doi": "10.1080/00958972.2010.495774",
+      "dois": [
+        "10.1080/00958972.2010.495774"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BAGU"
+      ]
+    },
+    "SYN8-01": {
+      "doi": "10.1002/9780470132586.ch16; 10.1021/ic00144a006",
+      "dois": [
+        "10.1002/9780470132586.ch16",
+        "10.1021/ic00144a006"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BEGA"
+      ]
+    },
+    "SYN16": {
+      "doi": "10.1021/ic00144a006",
+      "dois": [
+        "10.1021/ic00144a006"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Ge",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIGU"
+      ]
+    },
+    "SYN20": {
+      "doi": "10.1021/ic00144a006",
+      "dois": [
+        "10.1021/ic00144a006"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Ge",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUGA"
+      ]
+    },
+    "SYN21": {
+      "doi": "10.1021/ic00144a006",
+      "dois": [
+        "10.1021/ic00144a006"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "As",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUGE"
+      ]
+    },
+    "SYN23": {
+      "doi": "10.1021/ic0106120",
+      "dois": [
+        "10.1021/ic0106120"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Al",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUGI"
+      ]
+    },
+    "SYN26": {
+      "doi": "10.1021/ja982908j; 10.1002/9780470132586.ch17",
+      "dois": [
+        "10.1021/ja982908j",
+        "10.1002/9780470132586.ch17"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Al",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAHE"
+      ]
+    },
+    "SYN27": {
+      "doi": "10.1021/ja982908j",
+      "dois": [
+        "10.1021/ja982908j"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Al",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAHE"
+      ]
+    },
+    "SYN29": {
+      "doi": "10.1021/ja982908j",
+      "dois": [
+        "10.1021/ja982908j"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Al",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAHI"
+      ]
+    },
+    "SYN31": {
+      "doi": "10.1021/ic50041a038",
+      "dois": [
+        "10.1021/ic50041a038"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Fe",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAHU"
+      ]
+    },
+    "SYN39": {
+      "doi": "10.1021/ja01599a001",
+      "dois": [
+        "10.1021/ja01599a001"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Co",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BACU"
+      ]
+    },
+    "SYN42": {
+      "doi": "10.1039/jr9580002597",
+      "dois": [
+        "10.1039/jr9580002597"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Zn"
+      ],
+      "sourcePomIds": [
+        "POM_BEHI"
+      ]
+    },
+    "SYN43": {
+      "doi": "10.1039/jr9580002597",
+      "dois": [
+        "10.1039/jr9580002597"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Zn"
+      ],
+      "sourcePomIds": [
+        "POM_BEHI"
+      ]
+    },
+    "SYN44": {
+      "doi": "10.1039/jr9580002597",
+      "dois": [
+        "10.1039/jr9580002597"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Zn"
+      ],
+      "sourcePomIds": [
+        "POM_BEHI"
+      ]
+    },
+    "SYN45": {
+      "doi": "10.1016/s0021-9258(18)86325-6",
+      "dois": [
+        "10.1016/s0021-9258(18)86325-6"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEHU"
+      ]
+    },
+    "SYN46": {
+      "doi": "10.1021/ic00144a006",
+      "dois": [
+        "10.1021/ic00144a006"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BIHA"
+      ]
+    },
+    "SYN50": {
+      "doi": "10.1021/ic00144a006",
+      "dois": [
+        "10.1021/ic00144a006"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BIHO"
+      ]
+    },
+    "SYN51": {
+      "doi": "10.1021/ic00144a006",
+      "dois": [
+        "10.1021/ic00144a006"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Ge",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOHA"
+      ]
+    },
+    "SYN53-01": {
+      "doi": "10.1021/ic00144a006",
+      "dois": [
+        "10.1021/ic00144a006"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Ge",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOHE"
+      ]
+    },
+    "SYN54": {
+      "doi": "10.1016/s0020-1693(98)00294-1",
+      "dois": [
+        "10.1016/s0020-1693(98)00294-1"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "As",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOHI"
+      ]
+    },
+    "SYN58": {
+      "doi": "10.1002/anie.200353410",
+      "dois": [
+        "10.1002/anie.200353410"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BUHE"
+      ]
+    },
+    "SYN59": {
+      "doi": "10.1126/science.1073979",
+      "dois": [
+        "10.1126/science.1073979"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "O",
+        "Si",
+        "Ti"
+      ],
+      "sourcePomIds": [
+        "POM_BUHI"
+      ]
+    },
+    "SYN60": {
+      "doi": "10.1021/ja00362a008",
+      "dois": [
+        "10.1021/ja00362a008"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BUHO"
+      ]
+    },
+    "SYN61": {
+      "doi": "10.1021/ja00362a008",
+      "dois": [
+        "10.1021/ja00362a008"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BUHO"
+      ]
+    },
+    "SYN62": {
+      "doi": "10.1021/ic00084a008",
+      "dois": [
+        "10.1021/ic00084a008"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BUHO"
+      ]
+    },
+    "SYN63": {
+      "doi": "10.1039/b209076g",
+      "dois": [
+        "10.1039/b209076g"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BUHU"
+      ]
+    },
+    "SYN64": {
+      "doi": "10.1016/0277-5387(95)00026-o; 10.1007/0-306-47625-8_1",
+      "dois": [
+        "10.1016/0277-5387(95)00026-o",
+        "10.1007/0-306-47625-8_1"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BUHO"
+      ]
+    },
+    "SYN66-01": {
+      "doi": "10.1021/ic50177a049",
+      "dois": [
+        "10.1021/ic50177a049"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BAJI"
+      ]
+    },
+    "SYN67": {
+      "doi": "10.1021/ic50177a049",
+      "dois": [
+        "10.1021/ic50177a049"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BAJO"
+      ]
+    },
+    "SYN69": {
+      "doi": "10.1002/9780470132586.ch17",
+      "dois": [
+        "10.1002/9780470132586.ch17"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEJA"
+      ]
+    },
+    "SYN70": {
+      "doi": "10.1002/9780470132586.ch17",
+      "dois": [
+        "10.1002/9780470132586.ch17"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEJE"
+      ]
+    },
+    "SYN71-1": {
+      "doi": "10.1002/9780470132586.ch17",
+      "dois": [
+        "10.1002/9780470132586.ch17"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEJI"
+      ]
+    },
+    "SYN71-2": {
+      "doi": "10.1002/9780470132586.ch17",
+      "dois": [
+        "10.1002/9780470132586.ch17"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEJU"
+      ]
+    },
+    "SYN72-1": {
+      "doi": "10.1016/s0020-1693(02)01267-7",
+      "dois": [
+        "10.1016/s0020-1693(02)01267-7"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BIJE"
+      ]
+    },
+    "SYN72-2": {
+      "doi": "10.1016/s0020-1693(02)01267-7",
+      "dois": [
+        "10.1016/s0020-1693(02)01267-7"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BOFA"
+      ]
+    },
+    "SYN73": {
+      "doi": "10.1021/ja00337a004",
+      "dois": [
+        "10.1021/ja00337a004"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEJA"
+      ]
+    },
+    "SYN74": {
+      "doi": "10.1021/ja00337a004",
+      "dois": [
+        "10.1021/ja00337a004"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BIJO"
+      ]
+    },
+    "SYN75": {
+      "doi": "10.1021/ic50121a040",
+      "dois": [
+        "10.1021/ic50121a040"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BIJO"
+      ]
+    },
+    "SYN76-1": {
+      "doi": "10.1021/ja00337a004",
+      "dois": [
+        "10.1021/ja00337a004"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEJE"
+      ]
+    },
+    "SYN76-2": {
+      "doi": "10.1021/ja00337a004",
+      "dois": [
+        "10.1021/ja00337a004"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEJE"
+      ]
+    },
+    "SYN77": {
+      "doi": "10.1021/ja00337a004",
+      "dois": [
+        "10.1021/ja00337a004"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BIJU"
+      ]
+    },
+    "SYN78": {
+      "doi": "10.1016/0277-5387(95)00026-o",
+      "dois": [
+        "10.1016/0277-5387(95)00026-o"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BOJA"
+      ]
+    },
+    "SYN79": {
+      "doi": "10.1016/0277-5387(95)00026-o",
+      "dois": [
+        "10.1016/0277-5387(95)00026-o"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BOJE"
+      ]
+    },
+    "SYN80": {
+      "doi": "10.1016/0277-5387(95)00026-o",
+      "dois": [
+        "10.1016/0277-5387(95)00026-o"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ta",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BOJU"
+      ]
+    },
+    "SYN83": {
+      "doi": "10.1002/9780470132586.ch16",
+      "dois": [
+        "10.1002/9780470132586.ch16"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BUJI"
+      ]
+    },
+    "SYN84": {
+      "doi": "10.1021/ic00084a008",
+      "dois": [
+        "10.1021/ic00084a008"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BUJO"
+      ]
+    },
+    "SYN85": {
+      "doi": "10.1039/b514169a",
+      "dois": [
+        "10.1039/b514169a"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BUJO"
+      ]
+    },
+    "SYN86": {
+      "doi": "10.1039/b514169a",
+      "dois": [
+        "10.1039/b514169a"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BUJO"
+      ]
+    },
+    "SYN88": {
+      "doi": "10.1002/9780470132586.ch16",
+      "dois": [
+        "10.1002/9780470132586.ch16"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BAKI"
+      ]
+    },
+    "SYN91": {
+      "doi": "10.1021/ic50174a060",
+      "dois": [
+        "10.1021/ic50174a060"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BEKE"
+      ]
+    },
+    "SYN92": {
+      "doi": "10.1002/9780470132586.ch16; 10.1021/ic50174a060",
+      "dois": [
+        "10.1002/9780470132586.ch16",
+        "10.1021/ic50174a060"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BEKI"
+      ]
+    },
+    "SYN93": {
+      "doi": "10.1021/ja00337a004",
+      "dois": [
+        "10.1021/ja00337a004"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BOFO"
+      ]
+    },
+    "SYN95-1-01": {
+      "doi": "10.1021/ja00337a004",
+      "dois": [
+        "10.1021/ja00337a004"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BEKO"
+      ]
+    },
+    "SYN96": {
+      "doi": "10.1021/ic000864l",
+      "dois": [
+        "10.1021/ic000864l"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BOFU"
+      ]
+    },
+    "SYN98-1": {
+      "doi": "10.1021/ja00375a044",
+      "dois": [
+        "10.1021/ja00375a044"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BIKA"
+      ]
+    },
+    "SYN98-2": {
+      "doi": "10.1021/ic000864l",
+      "dois": [
+        "10.1021/ic000864l"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BUFA"
+      ]
+    },
+    "SYN99-1": {
+      "doi": "10.1021/ja00375a044",
+      "dois": [
+        "10.1021/ja00375a044"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BIKI"
+      ]
+    },
+    "SYN99-2": {
+      "doi": "10.1021/ja00375a044",
+      "dois": [
+        "10.1021/ja00375a044"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BIKO"
+      ]
+    },
+    "SYN99-3": {
+      "doi": "10.1021/ja00375a044",
+      "dois": [
+        "10.1021/ja00375a044"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BIKI"
+      ]
+    },
+    "SYN103": {
+      "doi": "10.1021/ic0341845",
+      "dois": [
+        "10.1021/ic0341845"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BOKI"
+      ]
+    },
+    "SYN105": {
+      "doi": "10.1021/ja00335a086",
+      "dois": [
+        "10.1021/ja00335a086"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BUKA"
+      ]
+    },
+    "SYN106": {
+      "doi": "10.1021/ja307484a",
+      "dois": [
+        "10.1021/ja307484a"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ta",
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BUKE"
+      ]
+    },
+    "SYN109": {
+      "doi": "10.1002/9780470132586.ch16; 10.1021/ic50174a060",
+      "dois": [
+        "10.1002/9780470132586.ch16",
+        "10.1021/ic50174a060"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Ge",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUKO"
+      ]
+    },
+    "SYN110": {
+      "doi": "10.1021/ic0603252",
+      "dois": [
+        "10.1021/ic0603252"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Ge",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUKU"
+      ]
+    },
+    "SYN111": {
+      "doi": "10.1021/ic0603252",
+      "dois": [
+        "10.1021/ic0603252"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Ge",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BALA"
+      ]
+    },
+    "SYN112": {
+      "doi": "10.1021/ic00084a008",
+      "dois": [
+        "10.1021/ic00084a008"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Ge",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BALO"
+      ]
+    },
+    "SYN113-1": {
+      "doi": "10.1021/ic961051t",
+      "dois": [
+        "10.1021/ic961051t"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "B",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BELE"
+      ]
+    },
+    "SYN113-2": {
+      "doi": "10.1021/ic00084a008",
+      "dois": [
+        "10.1021/ic00084a008"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "B",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BELE"
+      ]
+    },
+    "SYN114": {
+      "doi": "10.1021/ja00337a004",
+      "dois": [
+        "10.1021/ja00337a004"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "B",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BELI"
+      ]
+    },
+    "SYN115": {
+      "doi": "10.1039/jr9500002372",
+      "dois": [
+        "10.1039/jr9500002372"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Al",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BELO"
+      ]
+    },
+    "SYN116": {
+      "doi": "10.1039/jr9500002372",
+      "dois": [
+        "10.1039/jr9500002372"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Al",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BELO"
+      ]
+    },
+    "SYN117": {
+      "doi": "10.1039/jr9500002372",
+      "dois": [
+        "10.1039/jr9500002372"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Al",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BELO"
+      ]
+    },
+    "SYN118": {
+      "doi": "10.1039/jr9500002372",
+      "dois": [
+        "10.1039/jr9500002372"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Al",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BELO"
+      ]
+    },
+    "SYN119-01": {
+      "doi": "10.1021/ja982908j",
+      "dois": [
+        "10.1021/ja982908j"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Al",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BILA"
+      ]
+    },
+    "SYN120": {
+      "doi": "10.1021/ja982908j",
+      "dois": [
+        "10.1021/ja982908j"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Al",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BILI"
+      ]
+    },
+    "SYN121": {
+      "doi": "10.1021/ja982908j",
+      "dois": [
+        "10.1021/ja982908j"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Al",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BILA"
+      ]
+    },
+    "SYN122": {
+      "doi": "10.1021/ja982908j",
+      "dois": [
+        "10.1021/ja982908j"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "Al",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BILU"
+      ]
+    },
+    "SYN123": {
+      "doi": "10.1039/jr9500002372",
+      "dois": [
+        "10.1039/jr9500002372"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Cr",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOLI"
+      ]
+    },
+    "SYN125": {
+      "doi": "10.1039/jr9500002372",
+      "dois": [
+        "10.1039/jr9500002372"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Cr",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOLI"
+      ]
+    },
+    "SYN126": {
+      "doi": "10.1039/jr9500002372",
+      "dois": [
+        "10.1039/jr9500002372"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Cr",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOLI"
+      ]
+    },
+    "SYN127": {
+      "doi": "10.1039/jr9500002372",
+      "dois": [
+        "10.1039/jr9500002372"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Cr",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOLI"
+      ]
+    },
+    "SYN130": {
+      "doi": "10.1039/jr9500002372",
+      "dois": [
+        "10.1039/jr9500002372"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUFI"
+      ]
+    },
+    "SYN131": {
+      "doi": "10.1039/jr9500002372",
+      "dois": [
+        "10.1039/jr9500002372"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BULA"
+      ]
+    },
+    "SYN132": {
+      "doi": "10.1039/jr9500002372",
+      "dois": [
+        "10.1039/jr9500002372"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BULA"
+      ]
+    },
+    "SYN133": {
+      "doi": "10.1021/ja9804969",
+      "dois": [
+        "10.1021/ja9804969"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Co",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BULE"
+      ]
+    },
+    "SYN135": {
+      "doi": "10.1016/j.poly.2005.03.010",
+      "dois": [
+        "10.1016/j.poly.2005.03.010"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "As",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAMO"
+      ]
+    },
+    "SYN136": {
+      "doi": "10.1039/b006804g",
+      "dois": [
+        "10.1039/b006804g"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "As",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEME"
+      ]
+    },
+    "SYN138-01": {
+      "doi": "10.1002/chin.199743027",
+      "dois": [
+        "10.1002/chin.199743027"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Sb"
+      ],
+      "sourcePomIds": [
+        "POM_BEMO"
+      ]
+    },
+    "SYN141": {
+      "doi": "10.1016/s0277-5387(00)00591-x",
+      "dois": [
+        "10.1016/s0277-5387(00)00591-x"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "As",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIMO"
+      ]
+    },
+    "SYN142": {
+      "doi": "10.1016/s0277-5387(00)00591-x",
+      "dois": [
+        "10.1016/s0277-5387(00)00591-x"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "As",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOME"
+      ]
+    },
+    "SYN144": {
+      "doi": "10.1016/s0025-5408(00)00187-2",
+      "dois": [
+        "10.1016/s0025-5408(00)00187-2"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "Ge",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOMO"
+      ]
+    },
+    "SYN145-1": {
+      "doi": "10.1016/s0020-1693(98)00294-1; 10.1021/ic00021a010",
+      "dois": [
+        "10.1016/s0020-1693(98)00294-1",
+        "10.1021/ic00021a010"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BOMU"
+      ]
+    },
+    "SYN147": {
+      "doi": "10.1021/ic50177a049",
+      "dois": [
+        "10.1021/ic50177a049"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BUME"
+      ]
+    },
+    "SYN148": {
+      "doi": "10.1021/ic50177a049",
+      "dois": [
+        "10.1021/ic50177a049"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BUMI"
+      ]
+    },
+    "SYN149": {
+      "doi": "10.1021/ic50061a009",
+      "dois": [
+        "10.1021/ic50061a009"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BUMO"
+      ]
+    },
+    "SYN150-1-01": {
+      "doi": "10.1021/ic50061a009",
+      "dois": [
+        "10.1021/ic50061a009"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BABO"
+      ]
+    },
+    "SYN150-2": {
+      "doi": "10.1021/ic50061a009",
+      "dois": [
+        "10.1021/ic50061a009"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BUMU"
+      ]
+    },
+    "SYN151": {
+      "doi": "10.1021/ic50061a009",
+      "dois": [
+        "10.1021/ic50061a009"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BABI"
+      ]
+    },
+    "SYN152-2-01": {
+      "doi": "10.1021/ic50061a009",
+      "dois": [
+        "10.1021/ic50061a009"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BUMO"
+      ]
+    },
+    "SYN153": {
+      "doi": "10.1021/ja801560t",
+      "dois": [
+        "10.1021/ja801560t"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Co",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEBE"
+      ]
+    },
+    "SYN154-1": {
+      "doi": "10.1021/ja807357r",
+      "dois": [
+        "10.1021/ja807357r"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Cu",
+        "W",
+        "Ge",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEBO"
+      ]
+    },
+    "SYN154-2": {
+      "doi": "10.1021/ja807357r",
+      "dois": [
+        "10.1021/ja807357r"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Cu",
+        "W",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEBU"
+      ]
+    },
+    "SYN154-3": {
+      "doi": "10.1021/ja807357r",
+      "dois": [
+        "10.1021/ja807357r"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Cu",
+        "Mo",
+        "H",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BIBA"
+      ]
+    },
+    "SYN154-4": {
+      "doi": "10.1021/ja807357r",
+      "dois": [
+        "10.1021/ja807357r"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Cu",
+        "Mo",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BIBE"
+      ]
+    },
+    "SYN154-5": {
+      "doi": "10.1021/ja807357r",
+      "dois": [
+        "10.1021/ja807357r"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Cu",
+        "Mo",
+        "As",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIBO"
+      ]
+    },
+    "SYN154-6-01": {
+      "doi": "10.1021/ja807357r",
+      "dois": [
+        "10.1021/ja807357r"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BOBI"
+      ]
+    },
+    "SYN155": {
+      "doi": "10.1021/ic0012874",
+      "dois": [
+        "10.1021/ic0012874"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEHU"
+      ]
+    },
+    "SYN156": {
+      "doi": "10.1126/science.1073979",
+      "dois": [
+        "10.1126/science.1073979"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "H",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BANA"
+      ]
+    },
+    "SYN157": {
+      "doi": "10.1039/c1cc12329g",
+      "dois": [
+        "10.1039/c1cc12329g"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Cu",
+        "Nb",
+        "V",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOBU"
+      ]
+    },
+    "SYN159-1": {
+      "doi": "10.1021/ic50191a021",
+      "dois": [
+        "10.1021/ic50191a021"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BUBI"
+      ]
+    },
+    "SYN159-2": {
+      "doi": "10.1021/ic50191a021",
+      "dois": [
+        "10.1021/ic50191a021"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BANO"
+      ]
+    },
+    "SYN161": {
+      "doi": "10.1039/b307276b",
+      "dois": [
+        "10.1039/b307276b"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_BENU"
+      ]
+    },
+    "SYN162": {
+      "doi": "10.1021/ic990596v; 10.1139/v91-221; 10.1002/chin.199207029",
+      "dois": [
+        "10.1021/ic990596v",
+        "10.1139/v91-221",
+        "10.1002/chin.199207029"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "As",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BINA"
+      ]
+    },
+    "SYN164": {
+      "doi": "10.1002/anie.200500541",
+      "dois": [
+        "10.1002/anie.200500541"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "S"
+      ],
+      "sourcePomIds": [
+        "POM_BINI"
+      ]
+    },
+    "SYN165": {
+      "doi": "10.1021/ic062022d.s002",
+      "dois": [
+        "10.1021/ic062022d.s002"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "S"
+      ],
+      "sourcePomIds": [
+        "POM_BINU"
+      ]
+    },
+    "SYN166": {
+      "doi": "10.1002/ejic.200300455; 10.1016/s1387-1609(00)00112-2",
+      "dois": [
+        "10.1002/ejic.200300455",
+        "10.1016/s1387-1609(00)00112-2"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BONA"
+      ]
+    },
+    "SYN167": {
+      "doi": "10.1021/ic50201a013",
+      "dois": [
+        "10.1021/ic50201a013"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "As",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BONI"
+      ]
+    },
+    "SYN170": {
+      "doi": "10.1002/anie.200504600",
+      "dois": [
+        "10.1002/anie.200504600"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUNI"
+      ]
+    },
+    "SYN171": {
+      "doi": "10.1002/anie.200800041",
+      "dois": [
+        "10.1002/anie.200800041"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "I",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUNO"
+      ]
+    },
+    "SYN172": {
+      "doi": "10.1002/anie.200800041",
+      "dois": [
+        "10.1002/anie.200800041"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "I",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUNO"
+      ]
+    },
+    "SYN173": {
+      "doi": "10.1002/anie.200800041",
+      "dois": [
+        "10.1002/anie.200800041"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "I",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUNO"
+      ]
+    },
+    "SYN178": {
+      "doi": "10.1021/ic062022d.s002",
+      "dois": [
+        "10.1021/ic062022d.s002"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "S"
+      ],
+      "sourcePomIds": [
+        "POM_BAPI"
+      ]
+    },
+    "SYN179": {
+      "doi": "10.1002/anie.200352896",
+      "dois": [
+        "10.1002/anie.200352896"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "S"
+      ],
+      "sourcePomIds": [
+        "POM_BAPO"
+      ]
+    },
+    "SYN181": {
+      "doi": "10.1016/j.inoche.2007.04.030",
+      "dois": [
+        "10.1016/j.inoche.2007.04.030"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEPA"
+      ]
+    },
+    "SYN182": {
+      "doi": "10.1002/9780470132586.ch18",
+      "dois": [
+        "10.1002/9780470132586.ch18"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEPE"
+      ]
+    },
+    "SYN183": {
+      "doi": "10.1002/9780470132586.ch18",
+      "dois": [
+        "10.1002/9780470132586.ch18"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Li",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEPI"
+      ]
+    },
+    "SYN184": {
+      "doi": "10.1021/ic051679g.s002",
+      "dois": [
+        "10.1021/ic051679g.s002"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEPO"
+      ]
+    },
+    "SYN187": {
+      "doi": "10.1021/ja00271a025",
+      "dois": [
+        "10.1021/ja00271a025"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BIPI"
+      ]
+    },
+    "SYN188": {
+      "doi": "10.1021/ja00271a025",
+      "dois": [
+        "10.1021/ja00271a025"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BIPI"
+      ]
+    },
+    "SYN189": {
+      "doi": "10.1021/ja00271a025",
+      "dois": [
+        "10.1021/ja00271a025"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BIPI"
+      ]
+    },
+    "SYN190": {
+      "doi": "10.1002/9780470132586.ch18",
+      "dois": [
+        "10.1002/9780470132586.ch18"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BOPA"
+      ]
+    },
+    "SYN191": {
+      "doi": "10.1002/chin.199737021",
+      "dois": [
+        "10.1002/chin.199737021"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BOPE"
+      ]
+    },
+    "SYN192": {
+      "doi": "10.1016/s1387-1609(00)00112-2",
+      "dois": [
+        "10.1016/s1387-1609(00)00112-2"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BOPO"
+      ]
+    },
+    "SYN193": {
+      "doi": "10.1002/9780470132586.ch18",
+      "dois": [
+        "10.1002/9780470132586.ch18"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BOPU"
+      ]
+    },
+    "SYN194-01": {
+      "doi": "10.1002/9780470132586.ch20",
+      "dois": [
+        "10.1002/9780470132586.ch20"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Na",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BUPA"
+      ]
+    },
+    "SYN195": {
+      "doi": "10.1002/chem.201200555",
+      "dois": [
+        "10.1002/chem.201200555"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "K",
+        "O",
+        "S"
+      ],
+      "sourcePomIds": [
+        "POM_BUPE"
+      ]
+    },
+    "SYN196": {
+      "doi": "10.1021/ja307484a",
+      "dois": [
+        "10.1021/ja307484a"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ta",
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BUPI"
+      ]
+    },
+    "SYN197": {
+      "doi": "10.1021/ja307484a",
+      "dois": [
+        "10.1021/ja307484a"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ta",
+        "W",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BUPO"
+      ]
+    },
+    "SYN198-01": {
+      "doi": "10.1021/ic00270a014; 10.1021/ic990596v",
+      "dois": [
+        "10.1021/ic00270a014",
+        "10.1021/ic990596v"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "As",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUPU"
+      ]
+    },
+    "SYN199-01": {
+      "doi": "10.1002/1521-3773(20010917)40:18<3384::aid-anie3384>3.0.co;2-o",
+      "dois": [
+        "10.1002/1521-3773(20010917)40:18<3384::aid-anie3384>3.0.co;2-o"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "As",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUBU"
+      ]
+    },
+    "SYN200": {
+      "doi": "10.1021/ic50201a013",
+      "dois": [
+        "10.1021/ic50201a013"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BAQA"
+      ]
+    },
+    "SYN202": {
+      "doi": "10.1002/9780470132586.ch19",
+      "dois": [
+        "10.1002/9780470132586.ch19"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "As",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAQI"
+      ]
+    },
+    "SYN204": {
+      "doi": "10.1002/9780470132586.ch21",
+      "dois": [
+        "10.1002/9780470132586.ch21"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "As",
+        "Na",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAQO"
+      ]
+    },
+    "SYN205": {
+      "doi": "10.1002/9780470132586.ch21",
+      "dois": [
+        "10.1002/9780470132586.ch21"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "As",
+        "Co",
+        "H",
+        "N",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEQA"
+      ]
+    },
+    "SYN207": {
+      "doi": "10.1021/ic200943s",
+      "dois": [
+        "10.1021/ic200943s"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEQI"
+      ]
+    },
+    "SYN208": {
+      "doi": "10.1021/ic200943s",
+      "dois": [
+        "10.1021/ic200943s"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEQU"
+      ]
+    },
+    "SYN209": {
+      "doi": "10.1021/ja017782w",
+      "dois": [
+        "10.1021/ja017782w"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Gd",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIQE"
+      ]
+    },
+    "SYN211": {
+      "doi": "10.1016/j.jssc.2008.11.011",
+      "dois": [
+        "10.1016/j.jssc.2008.11.011"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Co",
+        "Mo",
+        "Ce",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIQO"
+      ]
+    },
+    "SYN214-1": {
+      "doi": "10.1016/s0277-5387(00)80791-3",
+      "dois": [
+        "10.1016/s0277-5387(00)80791-3"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Al",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOQA"
+      ]
+    },
+    "SYN214-2": {
+      "doi": "10.1016/s0277-5387(00)80791-3",
+      "dois": [
+        "10.1016/s0277-5387(00)80791-3"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Fe",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BACI"
+      ]
+    },
+    "SYN214-3": {
+      "doi": "10.1016/s0277-5387(00)80791-3",
+      "dois": [
+        "10.1016/s0277-5387(00)80791-3"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Cr",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOQI"
+      ]
+    },
+    "SYN215": {
+      "doi": "10.1016/s0277-5387(00)80791-3",
+      "dois": [
+        "10.1016/s0277-5387(00)80791-3"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Co",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOQO"
+      ]
+    },
+    "SYN216-1": {
+      "doi": "10.1016/s0277-5387(00)80791-3",
+      "dois": [
+        "10.1016/s0277-5387(00)80791-3"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "H",
+        "O",
+        "Zn"
+      ],
+      "sourcePomIds": [
+        "POM_BOQU"
+      ]
+    },
+    "SYN216-2": {
+      "doi": "10.1016/s0277-5387(00)80791-3",
+      "dois": [
+        "10.1016/s0277-5387(00)80791-3"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "H",
+        "Ni",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUQA"
+      ]
+    },
+    "SYN217": {
+      "doi": "10.1016/s0277-5387(00)80791-3",
+      "dois": [
+        "10.1016/s0277-5387(00)80791-3"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Cu",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUQE"
+      ]
+    },
+    "SYN218-1": {
+      "doi": "10.1016/s0277-5387(00)80791-3",
+      "dois": [
+        "10.1016/s0277-5387(00)80791-3"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "H",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUQI"
+      ]
+    },
+    "SYN221": {
+      "doi": "10.1016/s1387-1609(00)00110-9",
+      "dois": [
+        "10.1016/s1387-1609(00)00110-9"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "As",
+        "H",
+        "O",
+        "S"
+      ],
+      "sourcePomIds": [
+        "POM_BARO"
+      ]
+    },
+    "SYN222": {
+      "doi": "10.1021/ic50191a021",
+      "dois": [
+        "10.1021/ic50191a021"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "I",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BERA"
+      ]
+    },
+    "SYN224": {
+      "doi": "10.1021/cg050326p",
+      "dois": [
+        "10.1021/cg050326p"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Cr",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BERI"
+      ]
+    },
+    "SYN225": {
+      "doi": "10.1007/bf02709291",
+      "dois": [
+        "10.1007/bf02709291"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Al",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOQA"
+      ]
+    },
+    "SYN226": {
+      "doi": "10.1007/bf02879735",
+      "dois": [
+        "10.1007/bf02879735"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Fe",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BACO"
+      ]
+    },
+    "SYN230": {
+      "doi": "10.1016/s0277-5387(00)80791-3",
+      "dois": [
+        "10.1016/s0277-5387(00)80791-3"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Ni",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIRO"
+      ]
+    },
+    "SYN231": {
+      "doi": "10.1107/s1600536807068067",
+      "dois": [
+        "10.1107/s1600536807068067"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Ga",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIRU"
+      ]
+    },
+    "SYN233-1": {
+      "doi": "10.1016/0022-1902(66)80324-x",
+      "dois": [
+        "10.1016/0022-1902(66)80324-x"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BORU"
+      ]
+    },
+    "SYN233-2": {
+      "doi": "10.1016/0022-1902(66)80324-x",
+      "dois": [
+        "10.1016/0022-1902(66)80324-x"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BORI",
+        "POM_BURA"
+      ]
+    },
+    "SYN234": {
+      "doi": "10.1071/ch9920685",
+      "dois": [
+        "10.1071/ch9920685"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BORI"
+      ]
+    },
+    "SYN236-1": {
+      "doi": "10.1016/s1381-1169(99)00414-8",
+      "dois": [
+        "10.1016/s1381-1169(99)00414-8"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BORI"
+      ]
+    },
+    "SYN238": {
+      "doi": "10.1002/zaac.200700365",
+      "dois": [
+        "10.1002/zaac.200700365"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Mn",
+        "O",
+        "Cu"
+      ],
+      "sourcePomIds": [
+        "POM_BORI"
+      ]
+    },
+    "SYN239": {
+      "doi": "10.1021/ja073153w; 10.31014/aior.1993.02.01.43",
+      "dois": [
+        "10.1021/ja073153w",
+        "10.31014/aior.1993.02.01.43"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BASA"
+      ]
+    },
+    "SYN242": {
+      "doi": "10.1021/ja073153w; 10.1002/chem.200901112",
+      "dois": [
+        "10.1021/ja073153w",
+        "10.1002/chem.200901112"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BORI"
+      ]
+    },
+    "SYN243": {
+      "doi": "10.1021/ja073153w; 10.1002/chem.200901112",
+      "dois": [
+        "10.1021/ja073153w",
+        "10.1002/chem.200901112"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BORI"
+      ]
+    },
+    "SYN245": {
+      "doi": "10.1021/ja073153w; 10.1021/cg2004936",
+      "dois": [
+        "10.1021/ja073153w",
+        "10.1021/cg2004936"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BORI"
+      ]
+    },
+    "SYN246": {
+      "doi": "10.1021/ja073153w; 10.1021/cg2004936",
+      "dois": [
+        "10.1021/ja073153w",
+        "10.1021/cg2004936"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BORI"
+      ]
+    },
+    "SYN247": {
+      "doi": "10.1021/ja073153w; 10.1021/cg2004936",
+      "dois": [
+        "10.1021/ja073153w",
+        "10.1021/cg2004936"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BASA"
+      ]
+    },
+    "SYN248": {
+      "doi": "10.1021/ja073153w; 10.1021/cg2004936",
+      "dois": [
+        "10.1021/ja073153w",
+        "10.1021/cg2004936"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BASA"
+      ]
+    },
+    "SYN249": {
+      "doi": "10.1021/ja073153w; 10.1007/s11426-011-4340-9",
+      "dois": [
+        "10.1021/ja073153w",
+        "10.1007/s11426-011-4340-9"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BORI"
+      ]
+    },
+    "SYN250": {
+      "doi": "10.1021/ja073153w; 10.1007/s11426-011-4340-9",
+      "dois": [
+        "10.1021/ja073153w",
+        "10.1007/s11426-011-4340-9"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BORI"
+      ]
+    },
+    "SYN253": {
+      "doi": "10.1021/ja00853a017",
+      "dois": [
+        "10.1021/ja00853a017"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BESO"
+      ]
+    },
+    "SYN254": {
+      "doi": "10.1016/j.inoche.2011.01.003",
+      "dois": [
+        "10.1016/j.inoche.2011.01.003"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BESU"
+      ]
+    },
+    "SYN257": {
+      "doi": "10.1002/9780470132586.ch23",
+      "dois": [
+        "10.1002/9780470132586.ch23"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BESO"
+      ]
+    },
+    "SYN258": {
+      "doi": "10.1002/9780470132586.ch23",
+      "dois": [
+        "10.1002/9780470132586.ch23"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "C",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BISA"
+      ]
+    },
+    "SYN259": {
+      "doi": "10.1002/9780470132586.ch23",
+      "dois": [
+        "10.1002/9780470132586.ch23"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "C",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BISA"
+      ]
+    },
+    "SYN260": {
+      "doi": "10.1002/9780470132586.ch23",
+      "dois": [
+        "10.1002/9780470132586.ch23"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "C",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BISE"
+      ]
+    },
+    "SYN261": {
+      "doi": "10.1002/9780470132586.ch23",
+      "dois": [
+        "10.1002/9780470132586.ch23"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "C",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BICI"
+      ]
+    },
+    "SYN262": {
+      "doi": "10.1002/9780470132586.ch23",
+      "dois": [
+        "10.1002/9780470132586.ch23"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "C",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BICO"
+      ]
+    },
+    "SYN263": {
+      "doi": "10.1002/9780470132586.ch23",
+      "dois": [
+        "10.1002/9780470132586.ch23"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "C",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BISI"
+      ]
+    },
+    "SYN266": {
+      "doi": "10.1016/j.materresbull.2011.11.014",
+      "dois": [
+        "10.1016/j.materresbull.2011.11.014"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "Se"
+      ],
+      "sourcePomIds": [
+        "POM_BISO"
+      ]
+    },
+    "SYN269": {
+      "doi": "10.1021/ja00397a060",
+      "dois": [
+        "10.1021/ja00397a060"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BOSO"
+      ]
+    },
+    "SYN271-2": {
+      "doi": "10.1021/ic801630z",
+      "dois": [
+        "10.1021/ic801630z"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Ho",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUSE"
+      ]
+    },
+    "SYN271-4": {
+      "doi": "10.1021/ic801630z",
+      "dois": [
+        "10.1021/ic801630z"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Tb"
+      ],
+      "sourcePomIds": [
+        "POM_BUSO"
+      ]
+    },
+    "SYN276": {
+      "doi": "10.1021/ic00067a032",
+      "dois": [
+        "10.1021/ic00067a032"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "Mn",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BICU"
+      ]
+    },
+    "SYN277": {
+      "doi": "10.1021/ic00270a014",
+      "dois": [
+        "10.1021/ic00270a014"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O",
+        "P",
+        "Zn"
+      ],
+      "sourcePomIds": [
+        "POM_BOCO"
+      ]
+    },
+    "SYN278": {
+      "doi": "10.1021/ic00270a014",
+      "dois": [
+        "10.1021/ic00270a014"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Co",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BOCI"
+      ]
+    },
+    "SYN279": {
+      "doi": "10.1021/ic00270a014",
+      "dois": [
+        "10.1021/ic00270a014"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Cu",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BOCA"
+      ]
+    },
+    "SYN280": {
+      "doi": "10.1021/ic970391r",
+      "dois": [
+        "10.1021/ic970391r"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Fe",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BOCA"
+      ]
+    },
+    "SYN281": {
+      "doi": "10.1021/ic00189a025",
+      "dois": [
+        "10.1021/ic00189a025"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "As",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUTI"
+      ]
+    },
+    "SYN283": {
+      "doi": "10.1021/ic010855s",
+      "dois": [
+        "10.1021/ic010855s"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "As",
+        "O",
+        "Fe"
+      ],
+      "sourcePomIds": [
+        "POM_BUTU"
+      ]
+    },
+    "SYN284": {
+      "doi": "10.1016/j.crci.2004.09.017",
+      "dois": [
+        "10.1016/j.crci.2004.09.017"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "As",
+        "H",
+        "O",
+        "In"
+      ],
+      "sourcePomIds": [
+        "POM_BAVA"
+      ]
+    },
+    "SYN285": {
+      "doi": "10.1016/j.crci.2004.09.017",
+      "dois": [
+        "10.1016/j.crci.2004.09.017"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Sb",
+        "In"
+      ],
+      "sourcePomIds": [
+        "POM_BAVE"
+      ]
+    },
+    "SYN286": {
+      "doi": "10.1021/ic010855s",
+      "dois": [
+        "10.1021/ic010855s"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Sb",
+        "Fe"
+      ],
+      "sourcePomIds": [
+        "POM_BAVE"
+      ]
+    },
+    "SYN287": {
+      "doi": "10.1016/j.poly.2005.03.010",
+      "dois": [
+        "10.1016/j.poly.2005.03.010"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "As",
+        "B",
+        "Cd",
+        "Cl",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOCU"
+      ]
+    },
+    "SYN288": {
+      "doi": "10.1021/ic010855s",
+      "dois": [
+        "10.1021/ic010855s"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Fe",
+        "H",
+        "O",
+        "Te"
+      ],
+      "sourcePomIds": [
+        "POM_BAVO"
+      ]
+    },
+    "SYN289": {
+      "doi": "10.1021/ja974281v",
+      "dois": [
+        "10.1021/ja974281v"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Te",
+        "Mn"
+      ],
+      "sourcePomIds": [
+        "POM_BAVU"
+      ]
+    },
+    "SYN290": {
+      "doi": "10.1021/ic0354421.s002",
+      "dois": [
+        "10.1021/ic0354421.s002"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Ge",
+        "H",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUCE"
+      ]
+    },
+    "SYN291": {
+      "doi": "10.1021/ic0354421.s002",
+      "dois": [
+        "10.1021/ic0354421.s002"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Cu",
+        "Ge",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUCO"
+      ]
+    },
+    "SYN292": {
+      "doi": "10.1021/ic0354421.s002",
+      "dois": [
+        "10.1021/ic0354421.s002"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Ge",
+        "H",
+        "O",
+        "Zn"
+      ],
+      "sourcePomIds": [
+        "POM_BUCA"
+      ]
+    },
+    "SYN293": {
+      "doi": "10.1021/ic201331d",
+      "dois": [
+        "10.1021/ic201331d"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Ge",
+        "O",
+        "Ce",
+        "Cu"
+      ],
+      "sourcePomIds": [
+        "POM_BEVE"
+      ]
+    },
+    "SYN294": {
+      "doi": "10.1016/j.inoche.2007.08.025",
+      "dois": [
+        "10.1016/j.inoche.2007.08.025"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O",
+        "Si",
+        "Co"
+      ],
+      "sourcePomIds": [
+        "POM_BEVO"
+      ]
+    },
+    "SYN296": {
+      "doi": "10.1023/a:1020551016077",
+      "dois": [
+        "10.1023/a:1020551016077"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Fe",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIVE"
+      ]
+    },
+    "SYN297-1": {
+      "doi": "10.1002/anie.200900117",
+      "dois": [
+        "10.1002/anie.200900117"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Fe",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIVI"
+      ]
+    },
+    "SYN297-2": {
+      "doi": "10.1002/anie.200900117",
+      "dois": [
+        "10.1002/anie.200900117"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Fe",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUCU"
+      ]
+    },
+    "SYN298": {
+      "doi": "10.1021/cg060751y",
+      "dois": [
+        "10.1021/cg060751y"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "Ni",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BADA"
+      ]
+    },
+    "SYN299": {
+      "doi": "10.1023/a:1020551016077",
+      "dois": [
+        "10.1023/a:1020551016077"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Cu",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIVO"
+      ]
+    },
+    "SYN300": {
+      "doi": "10.1021/ic00270a014",
+      "dois": [
+        "10.1021/ic00270a014"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O",
+        "P",
+        "Zn"
+      ],
+      "sourcePomIds": [
+        "POM_BADI"
+      ]
+    },
+    "SYN301": {
+      "doi": "10.1021/ic00270a014",
+      "dois": [
+        "10.1021/ic00270a014"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Co",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BADO"
+      ]
+    },
+    "SYN302": {
+      "doi": "10.1021/ic00270a014",
+      "dois": [
+        "10.1021/ic00270a014"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Cu",
+        "H",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEDA"
+      ]
+    },
+    "SYN305-1": {
+      "doi": "10.1021/ic00096a028",
+      "dois": [
+        "10.1021/ic00096a028"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "Mn",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BEDU"
+      ]
+    },
+    "SYN308": {
+      "doi": "10.1021/ja00194a068",
+      "dois": [
+        "10.1021/ja00194a068"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOVE"
+      ]
+    },
+    "SYN310": {
+      "doi": "10.1002/anie.200703082",
+      "dois": [
+        "10.1002/anie.200703082"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "H",
+        "O",
+        "Pt"
+      ],
+      "sourcePomIds": [
+        "POM_BOVU"
+      ]
+    },
+    "SYN311": {
+      "doi": "10.1039/a906448f",
+      "dois": [
+        "10.1039/a906448f"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "C",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUVA"
+      ]
+    },
+    "SYN312": {
+      "doi": "10.1002/9780470132586.ch15",
+      "dois": [
+        "10.1002/9780470132586.ch15"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUVE"
+      ]
+    },
+    "SYN313": {
+      "doi": "10.1021/ic50040a004",
+      "dois": [
+        "10.1021/ic50040a004"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUVI"
+      ]
+    },
+    "SYN316": {
+      "doi": "10.1021/ic010599j",
+      "dois": [
+        "10.1021/ic010599j"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUVO"
+      ]
+    },
+    "SYN317": {
+      "doi": "10.1007/bf02708467",
+      "dois": [
+        "10.1007/bf02708467"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUVO"
+      ]
+    },
+    "SYN318": {
+      "doi": "10.1039/b714413j",
+      "dois": [
+        "10.1039/b714413j"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "O",
+        "Cu"
+      ],
+      "sourcePomIds": [
+        "POM_BIDO"
+      ]
+    },
+    "SYN319": {
+      "doi": "10.1021/ic50091a010",
+      "dois": [
+        "10.1021/ic50091a010"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUVU"
+      ]
+    },
+    "SYN321": {
+      "doi": "10.1021/ic50091a010",
+      "dois": [
+        "10.1021/ic50091a010"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "Mn",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUVU"
+      ]
+    },
+    "SYN322": {
+      "doi": "10.1021/ja00197a077",
+      "dois": [
+        "10.1021/ja00197a077"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "C",
+        "H",
+        "N",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAWI"
+      ]
+    },
+    "SYN323": {
+      "doi": "10.1021/ic0202099",
+      "dois": [
+        "10.1021/ic0202099"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "As",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEWA"
+      ]
+    },
+    "SYN324": {
+      "doi": "10.1021/ic0202099",
+      "dois": [
+        "10.1021/ic0202099"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "As",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEWA"
+      ]
+    },
+    "SYN325": {
+      "doi": "10.1021/ic00026a017",
+      "dois": [
+        "10.1021/ic00026a017"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "As",
+        "H",
+        "K",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEWE"
+      ]
+    },
+    "SYN326": {
+      "doi": "10.1021/ja00040a061",
+      "dois": [
+        "10.1021/ja00040a061"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEWI"
+      ]
+    },
+    "SYN327": {
+      "doi": "10.1039/c39910000260",
+      "dois": [
+        "10.1039/c39910000260"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "As",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEWO"
+      ]
+    },
+    "SYN328": {
+      "doi": "10.1021/ja0422209",
+      "dois": [
+        "10.1021/ja0422209"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "Cl",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEWU"
+      ]
+    },
+    "SYN329": {
+      "doi": "10.1007/bf02708467",
+      "dois": [
+        "10.1007/bf02708467"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIWE"
+      ]
+    },
+    "SYN330": {
+      "doi": "10.1002/anie.199009261",
+      "dois": [
+        "10.1002/anie.199009261"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "Br",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIWI"
+      ]
+    },
+    "SYN331": {
+      "doi": "10.1002/anie.199009261",
+      "dois": [
+        "10.1002/anie.199009261"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "C",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOWA"
+      ]
+    },
+    "SYN333": {
+      "doi": "10.1039/b708744f",
+      "dois": [
+        "10.1039/b708744f"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "O",
+        "Sb"
+      ],
+      "sourcePomIds": [
+        "POM_BOWI"
+      ]
+    },
+    "SYN335": {
+      "doi": "10.1039/b507531a",
+      "dois": [
+        "10.1039/b507531a"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "Cl",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIDU"
+      ]
+    },
+    "SYN337": {
+      "doi": "10.1002/anie.199009261",
+      "dois": [
+        "10.1002/anie.199009261"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "Br",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUWA"
+      ]
+    },
+    "SYN338": {
+      "doi": "10.1002/anie.199009261",
+      "dois": [
+        "10.1002/anie.199009261"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "H",
+        "I",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUWE"
+      ]
+    },
+    "SYN339": {
+      "doi": "10.1002/anie.199116741",
+      "dois": [
+        "10.1002/anie.199116741"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "H",
+        "N",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUWI"
+      ]
+    },
+    "SYN341": {
+      "doi": "10.1021/ic960706n",
+      "dois": [
+        "10.1021/ic960706n"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUWO"
+      ]
+    },
+    "SYN343": {
+      "doi": "10.1002/anie.198817191",
+      "dois": [
+        "10.1002/anie.198817191"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUWU"
+      ]
+    },
+    "SYN345": {
+      "doi": "10.1002/anie.199116741",
+      "dois": [
+        "10.1002/anie.199116741"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "Cl",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAXA"
+      ]
+    },
+    "SYN347": {
+      "doi": "10.1002/anie.199105881",
+      "dois": [
+        "10.1002/anie.199105881"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAXE"
+      ]
+    },
+    "SYN348": {
+      "doi": "10.1039/a700916j",
+      "dois": [
+        "10.1039/a700916j"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "N",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAXI"
+      ]
+    },
+    "SYN349": {
+      "doi": "10.1039/a700916j",
+      "dois": [
+        "10.1039/a700916j"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_BAXO"
+      ]
+    },
+    "SYN350": {
+      "doi": "10.1039/a700916j",
+      "dois": [
+        "10.1039/a700916j"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "B",
+        "Na",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAXU"
+      ]
+    },
+    "SYN351": {
+      "doi": "10.1039/dt9940002599",
+      "dois": [
+        "10.1039/dt9940002599"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "C",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOWA"
+      ]
+    },
+    "SYN352": {
+      "doi": "10.1039/dt9960000283",
+      "dois": [
+        "10.1039/dt9960000283"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "Cl",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEXE"
+      ]
+    },
+    "SYN353": {
+      "doi": "10.1039/dt9960000283",
+      "dois": [
+        "10.1039/dt9960000283"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEXI"
+      ]
+    },
+    "SYN355": {
+      "doi": "10.1021/cg0606904.s003",
+      "dois": [
+        "10.1021/cg0606904.s003"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEXO"
+      ]
+    },
+    "SYN356": {
+      "doi": "10.1007/s10876-006-0049-x",
+      "dois": [
+        "10.1007/s10876-006-0049-x"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEXO"
+      ]
+    },
+    "SYN357": {
+      "doi": "10.1007/s10876-006-0049-x",
+      "dois": [
+        "10.1007/s10876-006-0049-x"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEXO"
+      ]
+    },
+    "SYN358-01": {
+      "doi": "10.1007/s10876-006-0049-x",
+      "dois": [
+        "10.1007/s10876-006-0049-x"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEXO"
+      ]
+    },
+    "SYN359": {
+      "doi": "10.1007/s10876-006-0049-x",
+      "dois": [
+        "10.1007/s10876-006-0049-x"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEXU"
+      ]
+    },
+    "SYN361": {
+      "doi": "10.1007/s10876-006-0049-x",
+      "dois": [
+        "10.1007/s10876-006-0049-x"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BODI"
+      ]
+    },
+    "SYN362": {
+      "doi": "10.1016/j.molstruc.2009.06.018",
+      "dois": [
+        "10.1016/j.molstruc.2009.06.018"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BODI"
+      ]
+    },
+    "SYN366-1": {
+      "doi": "10.1002/anie.200903970",
+      "dois": [
+        "10.1002/anie.200903970"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "C",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIXI"
+      ]
+    },
+    "SYN366-2-01": {
+      "doi": "10.1002/anie.200903970",
+      "dois": [
+        "10.1002/anie.200903970"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIXO"
+      ]
+    },
+    "SYN367": {
+      "doi": "10.1021/ja303723u",
+      "dois": [
+        "10.1021/ja303723u"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIXU"
+      ]
+    },
+    "SYN368": {
+      "doi": "10.1021/ja303723u",
+      "dois": [
+        "10.1021/ja303723u"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BODU"
+      ]
+    },
+    "SYN369": {
+      "doi": "10.1021/ja303723u",
+      "dois": [
+        "10.1021/ja303723u"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIXU"
+      ]
+    },
+    "SYN371": {
+      "doi": "10.1021/ic50191a021",
+      "dois": [
+        "10.1021/ic50191a021"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ta",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOXE"
+      ]
+    },
+    "SYN372": {
+      "doi": "10.1016/j.molstruc.2009.06.018",
+      "dois": [
+        "10.1016/j.molstruc.2009.06.018"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ta",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOXE"
+      ]
+    },
+    "SYN385": {
+      "doi": "10.1021/ic50191a021",
+      "dois": [
+        "10.1021/ic50191a021"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAYE"
+      ]
+    },
+    "SYN386": {
+      "doi": "10.1021/cm011725k",
+      "dois": [
+        "10.1021/cm011725k"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAYI"
+      ]
+    },
+    "SYN387": {
+      "doi": "10.1002/chin.199144031",
+      "dois": [
+        "10.1002/chin.199144031"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAYO"
+      ]
+    },
+    "SYN389": {
+      "doi": "10.1002/anie.199708731",
+      "dois": [
+        "10.1002/anie.199708731"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEYA"
+      ]
+    },
+    "SYN390": {
+      "doi": "10.1016/j.molstruc.2003.08.027",
+      "dois": [
+        "10.1016/j.molstruc.2003.08.027"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "Cu"
+      ],
+      "sourcePomIds": [
+        "POM_BEYE"
+      ]
+    },
+    "SYN391": {
+      "doi": "10.1016/j.ica.2004.03.012",
+      "dois": [
+        "10.1016/j.ica.2004.03.012"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEYE"
+      ]
+    },
+    "SYN392": {
+      "doi": "10.1016/j.poly.2004.01.011",
+      "dois": [
+        "10.1016/j.poly.2004.01.011"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEYI"
+      ]
+    },
+    "SYN393": {
+      "doi": "10.1016/s0022-2860(02)00582-3",
+      "dois": [
+        "10.1016/s0022-2860(02)00582-3"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEYO"
+      ]
+    },
+    "SYN395": {
+      "doi": "10.1002/anie.200351615",
+      "dois": [
+        "10.1002/anie.200351615"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIYA"
+      ]
+    },
+    "SYN397": {
+      "doi": "10.1002/1099-0682(200109)2001:9<2271::aid-ejic2271>3.0.co;2-8",
+      "dois": [
+        "10.1002/1099-0682(200109)2001:9<2271::aid-ejic2271>3.0.co;2-8"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUDU"
+      ]
+    },
+    "SYN400": {
+      "doi": "10.1002/zaac.19946200405",
+      "dois": [
+        "10.1002/zaac.19946200405"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "H",
+        "N",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIYE"
+      ]
+    },
+    "SYN401": {
+      "doi": "10.1002/(sici)1521-3765(19980615)4:6<1000::aid-chem1000>3.0.co;2-c",
+      "dois": [
+        "10.1002/(sici)1521-3765(19980615)4:6<1000::aid-chem1000>3.0.co;2-c"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIYI"
+      ]
+    },
+    "SYN404": {
+      "doi": "10.1002/(sici)1521-3749(199912)625:12<1960::aid-zaac1960>3.0.co;2-a",
+      "dois": [
+        "10.1002/(sici)1521-3749(199912)625:12<1960::aid-zaac1960>3.0.co;2-a"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIYO"
+      ]
+    },
+    "SYN405": {
+      "doi": "10.1002/anie.199704841",
+      "dois": [
+        "10.1002/anie.199704841"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIYU"
+      ]
+    },
+    "SYN413": {
+      "doi": "10.1002/(sici)1521-3773(19981016)37:19<2668::aid-anie2668>3.0.co;2-8",
+      "dois": [
+        "10.1002/(sici)1521-3773(19981016)37:19<2668::aid-anie2668>3.0.co;2-8"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOYA"
+      ]
+    },
+    "SYN414": {
+      "doi": "10.1002/(sici)1521-3773(19981016)37:19<2668::aid-anie2668>3.0.co;2-8",
+      "dois": [
+        "10.1002/(sici)1521-3773(19981016)37:19<2668::aid-anie2668>3.0.co;2-8"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOYA"
+      ]
+    },
+    "SYN417": {
+      "doi": "10.1002/9780470132586.ch15",
+      "dois": [
+        "10.1002/9780470132586.ch15"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAFA"
+      ]
+    },
+    "SYN418": {
+      "doi": "10.1021/ic00322a024",
+      "dois": [
+        "10.1021/ic00322a024"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAFA"
+      ]
+    },
+    "SYN419": {
+      "doi": "10.1021/ic00322a024",
+      "dois": [
+        "10.1021/ic00322a024"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAFA"
+      ]
+    },
+    "SYN421": {
+      "doi": "10.1021/ic50191a021",
+      "dois": [
+        "10.1021/ic50191a021"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAFA"
+      ]
+    },
+    "SYN422": {
+      "doi": "10.1002/9780470132586.ch15",
+      "dois": [
+        "10.1002/9780470132586.ch15"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOYU"
+      ]
+    },
+    "SYN423": {
+      "doi": "10.1002/anie.200504600",
+      "dois": [
+        "10.1002/anie.200504600"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOYU"
+      ]
+    },
+    "SYN426": {
+      "doi": "10.1039/b006264m",
+      "dois": [
+        "10.1039/b006264m"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEFE"
+      ]
+    },
+    "SYN427": {
+      "doi": "10.1039/b006264m",
+      "dois": [
+        "10.1039/b006264m"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAFO"
+      ]
+    },
+    "SYN428": {
+      "doi": "10.1039/b006264m",
+      "dois": [
+        "10.1039/b006264m"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAFO"
+      ]
+    },
+    "SYN429": {
+      "doi": "10.1039/b006264m",
+      "dois": [
+        "10.1039/b006264m"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEFI"
+      ]
+    },
+    "SYN432": {
+      "doi": "10.1107/s0567740876005827",
+      "dois": [
+        "10.1107/s0567740876005827"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUYA"
+      ]
+    },
+    "SYN434": {
+      "doi": "10.1002/anie.200504600",
+      "dois": [
+        "10.1002/anie.200504600"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUYI"
+      ]
+    },
+    "SYN436": {
+      "doi": "10.1002/anie.200802109",
+      "dois": [
+        "10.1002/anie.200802109"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUYO"
+      ]
+    },
+    "SYN437": {
+      "doi": "10.1002/anie.200802109",
+      "dois": [
+        "10.1002/anie.200802109"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUYU"
+      ]
+    },
+    "SYN439": {
+      "doi": "10.1107/s0567740879008323",
+      "dois": [
+        "10.1107/s0567740879008323"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAZA"
+      ]
+    },
+    "SYN440": {
+      "doi": "10.1016/0277-5387(96)00316-6",
+      "dois": [
+        "10.1016/0277-5387(96)00316-6"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "Cl",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BAZO"
+      ]
+    },
+    "SYN441": {
+      "doi": "10.1016/s0277-5387(00)88136-x",
+      "dois": [
+        "10.1016/s0277-5387(00)88136-x"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEZE"
+      ]
+    },
+    "SYN442": {
+      "doi": "10.1021/ic50191a021",
+      "dois": [
+        "10.1021/ic50191a021"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEZI"
+      ]
+    },
+    "SYN443": {
+      "doi": "10.1107/s0567740879008335",
+      "dois": [
+        "10.1107/s0567740879008335"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEZO"
+      ]
+    },
+    "SYN444": {
+      "doi": "10.1107/s0108270185009143",
+      "dois": [
+        "10.1107/s0108270185009143"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BEZO"
+      ]
+    },
+    "SYN446": {
+      "doi": "10.1107/s0567740880006528",
+      "dois": [
+        "10.1107/s0567740880006528"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "V",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIZA"
+      ]
+    },
+    "SYN451": {
+      "doi": "10.1021/ic00260a021",
+      "dois": [
+        "10.1021/ic00260a021"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIZE"
+      ]
+    },
+    "SYN452-01": {
+      "doi": "10.1021/ic50105a030",
+      "dois": [
+        "10.1021/ic50105a030"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIZI"
+      ]
+    },
+    "SYN453": {
+      "doi": "10.1021/ic50191a021",
+      "dois": [
+        "10.1021/ic50191a021"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BIZO"
+      ]
+    },
+    "SYN455": {
+      "doi": "10.1016/s1387-7003(03)00179-5",
+      "dois": [
+        "10.1016/s1387-7003(03)00179-5"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOZU"
+      ]
+    },
+    "SYN456": {
+      "doi": "10.1021/ic50134a014",
+      "dois": [
+        "10.1021/ic50134a014"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUZA"
+      ]
+    },
+    "SYN457": {
+      "doi": "10.1039/a808760a",
+      "dois": [
+        "10.1039/a808760a"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUZI"
+      ]
+    },
+    "SYN460": {
+      "doi": "10.1021/ja00375a044",
+      "dois": [
+        "10.1021/ja00375a044"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "W",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BUZO"
+      ]
+    },
+    "SYN462": {
+      "doi": "10.1021/ic00137a041",
+      "dois": [
+        "10.1021/ic00137a041"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Ga",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_CABI"
+      ]
+    },
+    "SYN464": {
+      "doi": "10.1021/ic00137a041",
+      "dois": [
+        "10.1021/ic00137a041"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "Si",
+        "Ti"
+      ],
+      "sourcePomIds": [
+        "POM_CABU"
+      ]
+    },
+    "SYN465": {
+      "doi": "10.1021/ic00137a041",
+      "dois": [
+        "10.1021/ic00137a041"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Al",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_CEBA"
+      ]
+    },
+    "SYN466": {
+      "doi": "10.1016/j.tetlet.2005.08.040",
+      "dois": [
+        "10.1016/j.tetlet.2005.08.040"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O",
+        "Si",
+        "Zn"
+      ],
+      "sourcePomIds": [
+        "POM_CEBE"
+      ]
+    },
+    "SYN467-01": {
+      "doi": "10.1039/b703178e",
+      "dois": [
+        "10.1039/b703178e"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Mn",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_CEBO"
+      ]
+    },
+    "SYN468": {
+      "doi": "10.1039/b104132k",
+      "dois": [
+        "10.1039/b104132k"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Co",
+        "H",
+        "O",
+        "P",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_CEBU"
+      ]
+    },
+    "SYN474": {
+      "doi": "10.1039/b503665h",
+      "dois": [
+        "10.1039/b503665h"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Cl",
+        "Fe",
+        "H",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_CIBU"
+      ]
+    },
+    "SYN486": {
+      "doi": "10.1021/ic981138+",
+      "dois": [
+        "10.1021/ic981138+"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "Ni",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_COBI"
+      ]
+    },
+    "SYN487": {
+      "doi": "10.1002/9780470132586.ch17",
+      "dois": [
+        "10.1002/9780470132586.ch17"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_COBO"
+      ]
+    },
+    "SYN491": {
+      "doi": "10.1002/1099-0682(200210)2002:10<2587::aid-ejic2587>3.0.co;2-d",
+      "dois": [
+        "10.1002/1099-0682(200210)2002:10<2587::aid-ejic2587>3.0.co;2-d"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P",
+        "Zn"
+      ],
+      "sourcePomIds": [
+        "POM_CUBA"
+      ]
+    },
+    "SYN492": {
+      "doi": "10.1002/1099-0682(200210)2002:10<2587::aid-ejic2587>3.0.co;2-d",
+      "dois": [
+        "10.1002/1099-0682(200210)2002:10<2587::aid-ejic2587>3.0.co;2-d"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Mg",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_CUBO"
+      ]
+    },
+    "SYN495": {
+      "doi": "10.1002/1099-0682(200210)2002:10<2587::aid-ejic2587>3.0.co;2-d",
+      "dois": [
+        "10.1002/1099-0682(200210)2002:10<2587::aid-ejic2587>3.0.co;2-d"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Mn",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_CACE"
+      ]
+    },
+    "SYN496": {
+      "doi": "10.1002/1099-0682(200210)2002:10<2587::aid-ejic2587>3.0.co;2-d",
+      "dois": [
+        "10.1002/1099-0682(200210)2002:10<2587::aid-ejic2587>3.0.co;2-d"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Ni",
+        "O",
+        "P"
+      ],
+      "sourcePomIds": [
+        "POM_CACI"
+      ]
+    },
+    "SYN498": {
+      "doi": "10.1021/ic970215i",
+      "dois": [
+        "10.1021/ic970215i"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "W",
+        "Fe",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_CACU"
+      ]
+    },
+    "SYN499": {
+      "doi": "10.1021/ic970215i",
+      "dois": [
+        "10.1021/ic970215i"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Fe",
+        "H",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_CECA"
+      ]
+    },
+    "SYN501": {
+      "doi": "10.1039/a805286g",
+      "dois": [
+        "10.1039/a805286g"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "O",
+        "P",
+        "Re"
+      ],
+      "sourcePomIds": [
+        "POM_CECU"
+      ]
+    },
+    "SYN502": {
+      "doi": "10.1021/ic051679g.s002",
+      "dois": [
+        "10.1021/ic051679g.s002"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "H",
+        "O",
+        "P",
+        "Yb"
+      ],
+      "sourcePomIds": [
+        "POM_CICE"
+      ]
+    },
+    "SYN542": {
+      "doi": "10.1016/s0022-2860(03)00345-4",
+      "dois": [
+        "10.1016/s0022-2860(03)00345-4"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "As",
+        "H",
+        "O",
+        "Yb"
+      ],
+      "sourcePomIds": [
+        "POM_CAGU"
+      ]
+    },
+    "SYN565": {
+      "doi": "10.1021/ic0341845",
+      "dois": [
+        "10.1021/ic0341845"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_CEGA"
+      ]
+    },
+    "SYN566": {
+      "doi": "10.1021/ic0341845",
+      "dois": [
+        "10.1021/ic0341845"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Nb",
+        "W",
+        "O",
+        "Si"
+      ],
+      "sourcePomIds": [
+        "POM_CEGE"
+      ]
+    },
+    "SYN578": {
+      "doi": "10.1021/ic50125a030",
+      "dois": [
+        "10.1021/ic50125a030"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "V",
+        "W",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_CEGI"
+      ]
+    },
+    "SYN582": {
+      "doi": "10.1021/ja025590a",
+      "dois": [
+        "10.1021/ja025590a"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "F",
+        "Fe",
+        "O"
+      ],
+      "sourcePomIds": [
+        "POM_BOFI"
+      ]
+    },
+    "SYN340-1": {
+      "doi": "10.1002/(sici)1521-3773(19990503)38:9<1292::aid-anie1292>3.0.co;2-2",
+      "dois": [
+        "10.1002/(sici)1521-3773(19990503)38:9<1292::aid-anie1292>3.0.co;2-2"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Co",
+        "V",
+        "O",
+        "H"
+      ]
+    },
+    "SYN340-2": {
+      "doi": "10.1002/(sici)1521-3773(19990503)38:9<1292::aid-anie1292>3.0.co;2-2",
+      "dois": [
+        "10.1002/(sici)1521-3773(19990503)38:9<1292::aid-anie1292>3.0.co;2-2"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Fe",
+        "V",
+        "O",
+        "H"
+      ]
+    },
+    "SYN399": {
+      "doi": "10.1039/b714915h",
+      "dois": [
+        "10.1039/b714915h"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "H",
+        "Sn",
+        "N",
+        "C"
+      ]
+    },
+    "SYN403": {
+      "doi": "10.1002/(sici)1521-3773(19981231)37:24<3359::aid-anie3359>3.0.co;2-j",
+      "dois": [
+        "10.1002/(sici)1521-3773(19981231)37:24<3359::aid-anie3359>3.0.co;2-j"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "C",
+        "H"
+      ]
+    },
+    "SYN412": {
+      "doi": "10.1002/1521-3773(20020402)41:7<1162::aid-anie1162>3.0.co;2-8",
+      "dois": [
+        "10.1002/1521-3773(20020402)41:7<1162::aid-anie1162>3.0.co;2-8"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "H",
+        "S"
+      ]
+    },
+    "SYN438": {
+      "doi": "10.1021/ja046410v",
+      "dois": [
+        "10.1021/ja046410v"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "H",
+        "O",
+        "K"
+      ]
+    },
+    "SYN449": {
+      "doi": "10.1039/a904724g",
+      "dois": [
+        "10.1039/a904724g"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "H",
+        "V",
+        "Na",
+        "S"
+      ]
+    },
+    "SYN484": {
+      "doi": "10.1039/c1cc10912j",
+      "dois": [
+        "10.1039/c1cc10912j"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "P",
+        "W",
+        "O",
+        "Ir",
+        "H"
+      ]
+    },
+    "SYN485": {
+      "doi": "10.1002/anie.200353433",
+      "dois": [
+        "10.1002/anie.200353433"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "P",
+        "W",
+        "O",
+        "Nb",
+        "N"
+      ]
+    },
+    "SYN536": {
+      "doi": "10.1039/b606911h",
+      "dois": [
+        "10.1039/b606911h"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mn",
+        "H",
+        "O",
+        "Si",
+        "W"
+      ]
+    },
+    "SYN537": {
+      "doi": "10.1039/b606911h",
+      "dois": [
+        "10.1039/b606911h"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Co",
+        "H",
+        "O",
+        "Si",
+        "W"
+      ]
+    },
+    "SYN538": {
+      "doi": "10.1039/b606911h",
+      "dois": [
+        "10.1039/b606911h"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ni",
+        "H",
+        "O",
+        "Si",
+        "W"
+      ]
+    },
+    "SYN546": {
+      "doi": "10.1021/ic9024712",
+      "dois": [
+        "10.1021/ic9024712"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Na",
+        "Co",
+        "P",
+        "W",
+        "O"
+      ]
+    },
+    "SYN547": {
+      "doi": "10.1021/ic9024712",
+      "dois": [
+        "10.1021/ic9024712"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Na",
+        "Ni",
+        "P",
+        "W",
+        "O"
+      ]
+    },
+    "SYN548": {
+      "doi": "10.1021/ic9024712",
+      "dois": [
+        "10.1021/ic9024712"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Na",
+        "Mn",
+        "P",
+        "W",
+        "O"
+      ]
+    },
+    "SYN549": {
+      "doi": "10.1021/ic9024712",
+      "dois": [
+        "10.1021/ic9024712"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Na",
+        "Zn",
+        "P",
+        "W",
+        "O"
+      ]
+    },
+    "SYN550": {
+      "doi": "10.1021/ic9024712",
+      "dois": [
+        "10.1021/ic9024712"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Li",
+        "Co",
+        "P",
+        "W",
+        "O"
+      ]
+    },
+    "SYN551": {
+      "doi": "10.1021/ic9024712",
+      "dois": [
+        "10.1021/ic9024712"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Li",
+        "Ni",
+        "P",
+        "W",
+        "O"
+      ]
+    },
+    "SYN552": {
+      "doi": "10.1021/ic9024712",
+      "dois": [
+        "10.1021/ic9024712"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Li",
+        "Mn",
+        "P",
+        "W",
+        "O"
+      ]
+    },
+    "SYN553": {
+      "doi": "10.1021/ic9024712",
+      "dois": [
+        "10.1021/ic9024712"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Li",
+        "Zn",
+        "P",
+        "W",
+        "O"
+      ]
+    },
+    "SYN557": {
+      "doi": "10.1021/ic000641v",
+      "dois": [
+        "10.1021/ic000641v"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "As",
+        "W",
+        "Mn",
+        "H",
+        "O"
+      ]
+    },
+    "SYN558": {
+      "doi": "10.1021/ic000641v",
+      "dois": [
+        "10.1021/ic000641v"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "As",
+        "W",
+        "V",
+        "O"
+      ]
+    },
+    "SYN560": {
+      "doi": "10.1021/ja077837f",
+      "dois": [
+        "10.1021/ja077837f"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ru",
+        "O",
+        "H",
+        "Si",
+        "W"
+      ]
+    },
+    "SYN563": {
+      "doi": "10.1021/ic048689m.s001",
+      "dois": [
+        "10.1021/ic048689m.s001"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Cu",
+        "O",
+        "H",
+        "Si",
+        "W"
+      ]
+    },
+    "SYN564-1": {
+      "doi": "10.1021/ic052149n",
+      "dois": [
+        "10.1021/ic052149n"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ni",
+        "H",
+        "O",
+        "Si",
+        "W"
+      ]
+    },
+    "SYN569": {
+      "doi": "10.1021/ic50212a018",
+      "dois": [
+        "10.1021/ic50212a018"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "H",
+        "W",
+        "I",
+        "O"
+      ]
+    },
+    "SYN256-1": {
+      "doi": "10.1021/ic026140m",
+      "dois": [
+        "10.1021/ic026140m"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "O",
+        "C",
+        "H",
+        "P",
+        "Mo"
+      ]
+    },
+    "SYN256-2": {
+      "doi": "10.1021/ic026140m",
+      "dois": [
+        "10.1021/ic026140m"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "O",
+        "C",
+        "H",
+        "P",
+        "Mo"
+      ]
+    },
+    "SYN265": {
+      "doi": "10.1002/9780470132586.ch23",
+      "dois": [
+        "10.1002/9780470132586.ch23"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "N",
+        "H",
+        "C",
+        "P",
+        "O",
+        "Mo"
+      ]
+    },
+    "SYN336-3": {
+      "doi": "10.1021/ja2024004",
+      "dois": [
+        "10.1021/ja2024004"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Br",
+        "H",
+        "O",
+        "C",
+        "V",
+        "As"
+      ]
+    },
+    "SYN342": {
+      "doi": "10.1021/ic981077f",
+      "dois": [
+        "10.1021/ic981077f"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "H",
+        "Mn",
+        "V",
+        "O"
+      ]
+    },
+    "SYN370": {
+      "doi": "10.1002/chem.200700612",
+      "dois": [
+        "10.1002/chem.200700612"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "H",
+        "Nb",
+        "O",
+        "K",
+        "Cu",
+        "Na"
+      ]
+    },
+    "SYN382": {
+      "doi": "10.1021/ja070600z",
+      "dois": [
+        "10.1021/ja070600z"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "N",
+        "C",
+        "H"
+      ]
+    },
+    "SYN396": {
+      "doi": "10.1002/1099-0682(200109)2001:9<2271::aid-ejic2271>3.0.co;2-8",
+      "dois": [
+        "10.1002/1099-0682(200109)2001:9<2271::aid-ejic2271>3.0.co;2-8"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "H",
+        "Mo",
+        "O",
+        "C"
+      ]
+    },
+    "SYN402": {
+      "doi": "10.1021/ja961637e",
+      "dois": [
+        "10.1021/ja961637e"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "N",
+        "H"
+      ]
+    },
+    "SYN406": {
+      "doi": "10.1002/chin.199938036",
+      "dois": [
+        "10.1002/chin.199938036"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "H"
+      ]
+    },
+    "SYN407": {
+      "doi": "10.1002/(sici)1521-3765(19990503)5:5<1496::aid-chem1496>3.0.co;2-d",
+      "dois": [
+        "10.1002/(sici)1521-3765(19990503)5:5<1496::aid-chem1496>3.0.co;2-d"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "H"
+      ]
+    },
+    "SYN408": {
+      "doi": "10.1002/chin.199938036",
+      "dois": [
+        "10.1002/chin.199938036"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "H"
+      ]
+    },
+    "SYN411": {
+      "doi": "10.1002/(sici)1521-3749(199912)625:12<1960::aid-zaac1960>3.0.co;2-a",
+      "dois": [
+        "10.1002/(sici)1521-3749(199912)625:12<1960::aid-zaac1960>3.0.co;2-a"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "H",
+        "C"
+      ]
+    },
+    "SYN433-01": {
+      "doi": "10.1021/ic700726d",
+      "dois": [
+        "10.1021/ic700726d"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "H",
+        "Ce",
+        "O",
+        "Cl",
+        "W"
+      ]
+    },
+    "SYN447": {
+      "doi": "10.1002/anie.200500697",
+      "dois": [
+        "10.1002/anie.200500697"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "H",
+        "S",
+        "V",
+        "K"
+      ]
+    },
+    "SYN450": {
+      "doi": "10.1039/b504491j",
+      "dois": [
+        "10.1039/b504491j"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "K",
+        "Mo",
+        "O",
+        "H",
+        "S",
+        "V"
+      ]
+    },
+    "SYN461": {
+      "doi": "10.1002/anie.200804496",
+      "dois": [
+        "10.1002/anie.200804496"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "W",
+        "Mo",
+        "O",
+        "H",
+        "C"
+      ]
+    },
+    "SYN472": {
+      "doi": "10.1021/ic9513954",
+      "dois": [
+        "10.1021/ic9513954"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Si",
+        "Co",
+        "W",
+        "O",
+        "H",
+        "Cr",
+        "C"
+      ]
+    },
+    "SYN476": {
+      "doi": "10.1021/ja8014154",
+      "dois": [
+        "10.1021/ja8014154"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Si",
+        "W",
+        "O",
+        "Al",
+        "H"
+      ]
+    },
+    "SYN477": {
+      "doi": "10.1021/ja8014154",
+      "dois": [
+        "10.1021/ja8014154"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Si",
+        "W",
+        "O",
+        "Al",
+        "C",
+        "H",
+        "N"
+      ]
+    },
+    "SYN480": {
+      "doi": "10.1021/ic0508627.s001",
+      "dois": [
+        "10.1021/ic0508627.s001"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ru",
+        "C",
+        "H",
+        "Si",
+        "W",
+        "O"
+      ]
+    },
+    "SYN481-01": {
+      "doi": "10.1021/ic800852d",
+      "dois": [
+        "10.1021/ic800852d"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "C",
+        "H",
+        "Sn",
+        "O",
+        "Ge",
+        "W"
+      ]
+    },
+    "SYN488": {
+      "doi": "10.1002/anie.200705709",
+      "dois": [
+        "10.1002/anie.200705709"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ni",
+        "O",
+        "H",
+        "P",
+        "W",
+        "C",
+        "N"
+      ]
+    },
+    "SYN489": {
+      "doi": "10.1039/c2dt00039c",
+      "dois": [
+        "10.1039/c2dt00039c"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Co",
+        "O",
+        "H",
+        "P",
+        "W"
+      ]
+    },
+    "SYN505": {
+      "doi": "10.1021/ic201336v",
+      "dois": [
+        "10.1021/ic201336v"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ge",
+        "W",
+        "O",
+        "C",
+        "H",
+        "Si"
+      ]
+    },
+    "SYN539": {
+      "doi": "10.1021/ja711078v.s002",
+      "dois": [
+        "10.1021/ja711078v.s002"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Pd",
+        "O",
+        "H",
+        "W",
+        "P"
+      ]
+    },
+    "SYN541": {
+      "doi": "10.1039/b925822a",
+      "dois": [
+        "10.1039/b925822a"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Sn",
+        "C",
+        "H",
+        "O",
+        "W",
+        "P"
+      ]
+    },
+    "SYN543-1": {
+      "doi": "10.1002/ejic.200600519",
+      "dois": [
+        "10.1002/ejic.200600519"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Co",
+        "As",
+        "V",
+        "Mo",
+        "O",
+        "H"
+      ]
+    },
+    "SYN543-2": {
+      "doi": "10.1002/ejic.200600519",
+      "dois": [
+        "10.1002/ejic.200600519"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mn",
+        "As",
+        "V",
+        "Mo",
+        "O",
+        "H"
+      ]
+    },
+    "SYN545": {
+      "doi": "10.1002/chem.200204677",
+      "dois": [
+        "10.1002/chem.200204677"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ti",
+        "P",
+        "W",
+        "O",
+        "H"
+      ]
+    },
+    "SYN554": {
+      "doi": "10.1021/ic048864z.s001",
+      "dois": [
+        "10.1021/ic048864z.s001"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Cs",
+        "K",
+        "H",
+        "O",
+        "Pd",
+        "W",
+        "Si"
+      ]
+    },
+    "SYN555": {
+      "doi": "10.1021/ic0255353",
+      "dois": [
+        "10.1021/ic0255353"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ni",
+        "Na",
+        "H",
+        "O",
+        "P",
+        "W"
+      ]
+    },
+    "SYN556": {
+      "doi": "10.1021/ic048552w",
+      "dois": [
+        "10.1021/ic048552w"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Na",
+        "O",
+        "H",
+        "Co",
+        "P",
+        "W"
+      ]
+    },
+    "SYN559": {
+      "doi": "10.1021/ic049736d.s001",
+      "dois": [
+        "10.1021/ic049736d.s001"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Cs",
+        "Na",
+        "H",
+        "O",
+        "Pd",
+        "Sb",
+        "W"
+      ]
+    },
+    "SYN561": {
+      "doi": "10.1039/b711584a",
+      "dois": [
+        "10.1039/b711584a"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Cu",
+        "H",
+        "O",
+        "Si",
+        "W"
+      ]
+    },
+    "SYN562": {
+      "doi": "10.1021/ic902217g",
+      "dois": [
+        "10.1021/ic902217g"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ce",
+        "Mn",
+        "H",
+        "O",
+        "Br",
+        "Ge",
+        "W"
+      ]
+    },
+    "SYN564-2": {
+      "doi": "10.1021/ic052149n",
+      "dois": [
+        "10.1021/ic052149n"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Ni",
+        "O",
+        "H",
+        "Co",
+        "C",
+        "Si",
+        "W"
+      ]
+    },
+    "SYN567": {
+      "doi": "10.1021/ic048713w.s001",
+      "dois": [
+        "10.1021/ic048713w.s001"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Fe",
+        "O",
+        "H",
+        "Ge",
+        "W"
+      ]
+    },
+    "SYN570": {
+      "doi": "10.1021/ic951231n",
+      "dois": [
+        "10.1021/ic951231n"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "P",
+        "Mo",
+        "O",
+        "V"
+      ]
+    },
+    "SYN572": {
+      "doi": "10.1007/s10876-006-0053-1",
+      "dois": [
+        "10.1007/s10876-006-0053-1"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mo",
+        "O",
+        "Fe",
+        "N",
+        "H"
+      ]
+    },
+    "SYN579": {
+      "doi": "10.1021/ja068214p",
+      "dois": [
+        "10.1021/ja068214p"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mn",
+        "Sb",
+        "O",
+        "H",
+        "C"
+      ]
+    },
+    "SYN580": {
+      "doi": "10.1021/ja068214p",
+      "dois": [
+        "10.1021/ja068214p"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Mn",
+        "Sb",
+        "O",
+        "C",
+        "H",
+        "N"
+      ]
+    },
+    "SYN581": {
+      "doi": "10.1021/ja068214p",
+      "dois": [
+        "10.1021/ja068214p"
+      ],
+      "source": "downloaded-paper-bibliography (00_output.csv)",
+      "elements": [
+        "Zn",
+        "Cl",
+        "C",
+        "H",
+        "Sb",
+        "O"
+      ]
+    }
+  }
+}
